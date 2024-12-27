@@ -1,0 +1,7 @@
+.primary-color {
+  color: var(--el-color-primary);
+}
+
+.ml-8 {
+  margin-left: 8px;
+}

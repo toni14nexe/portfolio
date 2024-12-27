@@ -1,0 +1,16 @@
+@import './base.css';
+@import './elementPlus.css';
+@import './helpers.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--el-color-primary);
+  transition: 0.4s;
+}

@@ -1,0 +1,9 @@
+:root {
+  --el-color-primary: #00bd7e !important;
+  --el-fill-color-blank: transparent !important;
+}
+
+.el-button {
+  --el-color-primary-light-9: transparent;
+  --el-color-primary-light-5: var(--el-color-primary);
+}
