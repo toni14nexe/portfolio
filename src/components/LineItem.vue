@@ -1,13 +1,25 @@
+<script setup>
+defineProps(['href'])
+</script>
+
 <template>
   <div class="item">
-    <i>
-      <slot name="icon"></slot>
+    <a v-if="href" :href="href" target="_blank">
+      <i>
+        <slot name="icon" />
+      </i>
+    </a>
+    <i v-else>
+      <slot name="icon" />
     </i>
     <div class="details">
       <h3>
-        <slot name="heading"></slot>
+        <a v-if="href" :href="href" target="_blank" class="title-link">
+          <slot name="heading" />
+        </a>
+        <slot v-else name="heading" />
       </h3>
-      <slot></slot>
+      <slot />
     </div>
   </div>
 </template>
@@ -38,6 +50,14 @@ h3 {
   font-weight: 500;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
+}
+
+.title-link {
+  color: white;
+  font-weight: 500;
+}
+.title-link:hover {
+  color: var(--el-color-primary);
 }
 
 @media (min-width: 1024px) {

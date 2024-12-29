@@ -3,7 +3,5 @@ import SkillsLine from '@/components/SkillsLine.vue'
 </script>
 
 <template>
-  <main>
-    <SkillsLine />
-  </main>
+  <main><SkillsLine /></main>
 </template>

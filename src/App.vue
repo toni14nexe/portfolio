@@ -46,7 +46,7 @@ import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
               rel="noopener noreferrer"
               class="el-button el-button--primary is-plain is-round"
             >
-              <GitHubIcon />
+              <GitHubIcon color="white" />
             </a>
           </ElTooltip>
           <ElTooltip content="Facebook">

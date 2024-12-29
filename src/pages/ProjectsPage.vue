@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import ProjectsLine from '@/components/ProjectsLine.vue'
+</script>
 
 <template>
-  <main>projects</main>
+  <main><ProjectsLine /></main>
 </template>
