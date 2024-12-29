@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import SkillsLine from '@/components/SkillsLine.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <SkillsLine />
   </main>
 </template>
