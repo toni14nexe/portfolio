@@ -4,7 +4,7 @@
   <main class="main">
     <h1 class="primary-color">Page not found</h1>
     <RouterLink to="/">
-      <ElButton type="primary" round plain>Go back to skills</ElButton>
+      <ElButton type="primary" plain>Go back to skills</ElButton>
     </RouterLink>
   </main>
 </template>

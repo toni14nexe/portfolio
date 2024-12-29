@@ -18,13 +18,13 @@ import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
 
         <nav>
           <RouterLink to="/">
-            <ElButton type="primary" round plain>Skills</ElButton>
+            <ElButton type="primary" plain>Skills</ElButton>
           </RouterLink>
           <RouterLink to="/about" class="ml-8">
-            <ElButton type="primary" round plain>About</ElButton>
+            <ElButton type="primary" plain>About</ElButton>
           </RouterLink>
           <RouterLink to="/projects" class="ml-8">
-            <ElButton type="primary" round plain>Projects</ElButton>
+            <ElButton type="primary" plain>Projects</ElButton>
           </RouterLink>
         </nav>
 
@@ -34,9 +34,8 @@ import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
               href="https://www.linkedin.com/in/toni-kolari%C4%87-05254a265/"
               target="_blank"
               rel="noopener noreferrer"
-              class="el-button el-button--primary is-plain is-round"
             >
-              <LinkedInIcon />
+              <ElIcon :size="36"><LinkedInIcon color="#ebebeba3" /></ElIcon>
             </a>
           </ElTooltip>
           <ElTooltip content="GitHub">
@@ -44,9 +43,9 @@ import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
               href="https://github.com/toni14nexe?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
-              class="el-button el-button--primary is-plain is-round"
+              class="ml-8"
             >
-              <GitHubIcon color="white" />
+              <ElIcon :size="36"><GitHubIcon color="#ebebeba3" /></ElIcon>
             </a>
           </ElTooltip>
           <ElTooltip content="Facebook">
@@ -54,9 +53,9 @@ import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
               href="https://www.facebook.com/toni.kolaric"
               target="_blank"
               rel="noopener noreferrer"
-              class="el-button el-button--primary is-plain is-round"
+              class="ml-8"
             >
-              <FacebookIcon />
+              <ElIcon :size="36"><FacebookIcon color="#ebebeba3" /></ElIcon>
             </a>
           </ElTooltip>
         </nav>
