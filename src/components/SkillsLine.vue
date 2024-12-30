@@ -31,7 +31,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       </ElIcon>
     </template>
     <template #heading>HTML</template>
-    Since 2016
+    {{ `${$t('skills.since')} 2016` }}
   </LineItem>
 
   <LineItem>
@@ -41,7 +41,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       </ElIcon>
     </template>
     <template #heading>CSS</template>
-    Since 2016
+    {{ `${$t('skills.since')} 2016` }}
   </LineItem>
 
   <LineItem>
@@ -51,7 +51,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       </ElIcon>
     </template>
     <template #heading>Javascript</template>
-    Since 2020
+    {{ `${$t('skills.since')} 2020` }}
   </LineItem>
 
   <LineItem>
@@ -59,7 +59,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <GitIcon /></ElIcon>
     </template>
     <template #heading>Git</template>
-    Since 2020
+    {{ `${$t('skills.since')} 2020` }}
   </LineItem>
 
   <LineItem>
@@ -67,7 +67,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <VueIcon /></ElIcon>
     </template>
     <template #heading>Vue.js</template>
-    Since 2021
+    {{ `${$t('skills.since')} 2021` }}
   </LineItem>
 
   <LineItem>
@@ -75,7 +75,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <NuxtIcon /></ElIcon>
     </template>
     <template #heading>Nuxt</template>
-    Since 2021
+    {{ `${$t('skills.since')} 2021` }}
   </LineItem>
 
   <LineItem>
@@ -83,7 +83,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <NodeIcon /></ElIcon>
     </template>
     <template #heading>Node.js</template>
-    Since 2021
+    {{ `${$t('skills.since')} 2021` }}
   </LineItem>
 
   <LineItem>
@@ -93,14 +93,14 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       </ElIcon>
     </template>
     <template #heading>SCSS</template>
-    Since 2023
+    {{ `${$t('skills.since')} 2023` }}
   </LineItem>
 
   <LineItem>
     <template #icon>
       <ElIcon :size="28"> <CourseraIcon /></ElIcon>
     </template>
-    <template #heading>Lots of Coursera certificates</template>
+    <template #heading>{{ $t('skills.lots_of_oursera_certificates') }}</template>
     2021
   </LineItem>
 
@@ -108,7 +108,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
     <template #icon>
       <ElIcon :size="28"> <HederaIcon /></ElIcon>
     </template>
-    <template #heading>Hedera certificate</template>
+    <template #heading>{{ $t('skills.hedera_certificate') }}</template>
     2023
   </LineItem>
 
@@ -117,7 +117,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <ReactIcon /></ElIcon>
     </template>
     <template #heading>React</template>
-    1 year of experience
+    {{ `1 ${$t('skills.year_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -125,7 +125,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <NextIcon /></ElIcon>
     </template>
     <template #heading>Next</template>
-    1 year of experience
+    {{ `1 ${$t('skills.year_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -133,7 +133,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <PrismaIcon /></ElIcon>
     </template>
     <template #heading>Prisma</template>
-    1 year of experience
+    {{ `1 ${$t('skills.year_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -141,7 +141,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <SqlIcon /></ElIcon>
     </template>
     <template #heading>SQL - MySQL & PostreSQL</template>
-    1 year of experience
+    {{ `1 ${$t('skills.year_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -149,7 +149,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <MongoIcon /></ElIcon>
     </template>
     <template #heading>MongoDB</template>
-    6 months of experience
+    {{ `6 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -157,7 +157,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <PythonIcon /></ElIcon>
     </template>
     <template #heading>Python</template>
-    3 months of experience
+    {{ `3 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -165,7 +165,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <JavaIcon /></ElIcon>
     </template>
     <template #heading>Java</template>
-    3 months of experience
+    {{ `3 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -173,7 +173,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <CIcon /></ElIcon>
     </template>
     <template #heading>C++</template>
-    3 months of experience
+    {{ `3 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -181,7 +181,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <PhpIcon /></ElIcon>
     </template>
     <template #heading>PHP</template>
-    3 months of experience
+    {{ `3 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -189,7 +189,7 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <ExpressIcon /></ElIcon>
     </template>
     <template #heading>Express.js</template>
-    3 months of experience
+    {{ `3 ${$t('skills.months_of_experiance')}` }}
   </LineItem>
 
   <LineItem>
@@ -197,6 +197,6 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
       <ElIcon :size="28"> <NestIcon /></ElIcon>
     </template>
     <template #heading>Nest.js</template>
-    1 month of experience
+    {{ `1 ${$t('skills.month_of_experiance')}` }}
   </LineItem>
 </template>

@@ -1,0 +1,180 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "skills": "Skills",
+    "about": "About",
+    "projects": "Projects",
+    "LinkedIn": "LinkedIn",
+    "GitHub": "GitHub",
+    "Facebook": "Facebook"
+  },
+  "skills": {
+    "since": "Since",
+    "lots_of_oursera_certificates": "Lots of Coursera certificates",
+    "hedera_certificate": "Hedera certificate",
+    "years_of_experiance": "years of experience",
+    "year_of_experiance": "year of experience",
+    "months_of_experiance": "months of experience",
+    "month_of_experiance": "month of experience"
+  },
+  "about": {
+    "personal_information": "Personal Information",
+    "name": "Name",
+    "place_of_birth": "Place of Birth",
+    "residence": "Residence",
+    "current_position": "Current Position: Frontend Developer at Barrage d.o.o.",
+    "professional_developer_since_2021": "Professional developer since 2021",
+    "early_years": {
+      "title": "Early Years",
+      "text": "I was born in Našice, a charming small town in eastern Croatia near Osijek. From an early age, I displayed a deep interest in technology, fueled by an innate curiosity about how things work and a passion for problem-solving."
+    },
+    "Education": {
+      "titile": "Education",
+      "primary": {
+        "title": "Primary School: Dora Pejačević Elementary School, Našice",
+        "text": "I completed all eight years of primary education with top honors, consistently excelling in my studies and demonstrating a strong affinity for computers and technology."
+      },
+      "secondary": {
+        "title": "Secondary School: Isidor Kršnjavi High School, Našice",
+        "text": "I pursued an education in electrical engineering, a natural choice given my interest in technology. During these years, I honed my skills by working at a local computer shop during the summers. My responsibilities included assembling and repairing computers, laptops, and mobile devices, as well as dabbling in programming fundamentals."
+      },
+      "higher": {
+        "title": "Higher Education: Faculty of Electrical Engineering, Computer Science and Information Technology (FERIT), Osijek",
+        "text": "While working as a waiter in Našice’s most renowned pub, I enrolled in the computer science program at FERIT. This marked the start of my formal journey into the IT world, where I successfully earned the title of bacc. ing. comp. (Bachelor of Computer Engineering)."
+      }
+    },
+    "professional_experience": {
+      "title": "Professional Experience",
+      "barrage": {
+        "title": "Frontend Developer - Barrage d.o.o., Osijek",
+        "text1": "Full-time role during studies and post-graduation: 2021 - still working",
+        "text2": "I joined Barrage as a frontend developer, primarily working with Vue.js and Nuxt.js. My role also extended to projects involving React and Next.js, providing valuable exposure to cutting-edge web development frameworks.",
+        "before_projects": "During my tenure at Barrage, I contributed to numerous high-impact projects, including:",
+        "project1": {
+          "title": "OneHub",
+          "text": "A collaborative project for T-Com, the leading telecom provider in Croatia, in partnership with Deutsche Telekom."
+        },
+        "project2": {
+          "title": "Travelspot",
+          "text": "A unique brand under Barrage’s portfolio, showcasing innovative and scalable web solutions for business traveling."
+        },
+        "text3": "Beyond my primary responsibilities, I have consistently sought opportunities to enhance my skills, delve into new technologies, and contribute to both company and personal projects.",
+        "text4": {
+          "first_part": "You can check my other projects",
+          "url_part": "here."
+        }
+      }
+    },
+    "private_projects": {
+      "title": "Private Projects",
+      "text": "Throughout my academic and professional career, I have been deeply committed to private initiatives that allowed me to realize personal and external ideas while refining my technical skills. These projects solidified my expertise as a full-stack developer with proficiency in:",
+      "frontend_skills": {
+        "title": "Frontend",
+        "text": "Vue.js, Nuxt.js, React, Next.js..."
+      },
+      "backend_skills": {
+        "title": "Backend",
+        "text": "Node.js, Express.js, Nest.js, Nuxt.js, Next.js..."
+      },
+      "database_skills": {
+        "title": "Database",
+        "text": "Prisma, PostgreSQL, MySQL, MongoDB..."
+      }
+    },
+    "personal_qualities": {
+      "title": "Personal Qualities",
+      "text1": "I am a highly ambitious and dedicated individual who thrives on challenges and constantly seeks opportunities to grow. I take pride in my ability to meet deadlines, learn new languages and frameworks, and push the boundaries of what I can achieve. Whether as part of a team or independently, I bring enthusiasm, reliability, and a results-driven mindset to every task.",
+      "text2": "I am eager to leverage my skills and passion for technology to make meaningful contributions, achieve organizational goals, and continue advancing in the ever-evolving world of IT."
+    },
+    "certificates": {
+      "title": "Certificates",
+      "hedera-certificate": "Hedera certificate - Hedera 2023",
+      "test-driven-development-java-beginners": "Test Driven Development in Java for Beginners - Coursera 2021",
+      "software-processes-agile-practices": "Software Processes and Agile Practices - Coursera 2021",
+      "software-development-processes-methodologies": "Software Development Processes and Methodologies - Coursera 2021",
+      "software-architecture": "Software Architecture - Coursera 2021",
+      "service-oriented-architecture": "Service-oriented Architecture - Coursera 2021",
+      "server-side-development-nodejs-express-mongodb": "Server-side Development with NodeJS, Express and MongoDB - Coursera 2021",
+      "programming-foundations-javascript-html": "Programming Foundations with JavaScript, HTML - Coursera 2021",
+      "object-oriented-design": "Object-Oriented Design - Coursera 2021",
+      "linux-commands-shell-scripting-essentials": "Linux Commands Shell Scripting Essentials - Coursera 2021",
+      "linux-fundamentals": "Linux Fundamentals - Coursera 2021",
+      "lean-software-development": "Lean Software Development - Coursera 2021",
+      "kubernetes-basic-architecture-first": "Kubernetes Basic Architecture and First - Coursera 2021",
+      "java-programming-solving-problems-with-software": "Java Programming Solving Problems with Software - Coursera 2021",
+      "java-programming-principles-software-design": "Java Programming Principles of Software Design - Coursera 2021",
+      "java-programming-build-recommendation-system": "Java Programming Build a Recommendation System - Coursera 2021",
+      "java-programming-arrays-lists-structured-data": "Java Programming Arrays, Lists, and Structured Data - Coursera 2021",
+      "introduction-unit-testing-jest-fundamentals": "Introduction to Unit Testing in Jest - The Fundamentals - Coursera 2021",
+      "introduction-test-driven-development": "Introduction to Test Driven Development - Coursera 2021",
+      "introduction-mongodb": "Introduction to MongoDB - Coursera 2021",
+      "introduction-git-github": "Introduction to Git and GitHub - Coursera 2021",
+      "hands-on-introduction-linux-commands": "Hands-on Introduction to Linux Commands and - Coursera 2021",
+      "front-end-web-ui-frameworks-tools-bootstrap-4": "Front-End Web UI Frameworks and Tools Bootstrap 4 - Coursera 2021",
+      "front-end-web-development-react": "Front-End Web Development with React - Coursera 2021",
+      "engineering-practices-building-quality": "Engineering Practices for Building Quality - Coursera 2021",
+      "docker-for-absolute-beginners": "Docker for absolute beginners - Coursera 2021",
+      "design-patterns": "Design Patterns - Coursera 2021",
+      "database-design-basic-sql-postgresql": "Database Design and Basic SQL in PostgreSQL - Coursera 2021",
+      "client-needs-software-requirements": "Client Needs and Software Requirements - Coursera 2021",
+      "c-for-everyone-programming-fundamentals": "C for Everyone Programming Fundamentals - Coursera 2021",
+      "beginners-guide-yaml-syntax": "Beginners Guide to YAML Syntax - Coursera 2021",
+      "agile-software-development": "Agile Software Development - Coursera 2021",
+      "practical-introduction-test-driven": "A Practical Introduction to Test-Driven - Coursera 2021"
+    }
+  },
+  "projects": {
+    "onehub": {
+      "title": "T-com OneHub",
+      "description": "Application of the leading Croatian telecom operator in cooperation with Deutsche Telekom, which unites 11 different business-user services into one - company, still developing"
+    },
+    "travelspot": {
+      "title": "Travelspot",
+      "description": "an application for the complete organization of a business trip with transportation, accommodation and other key things related to the trip - company"
+    },
+    "roango": {
+      "title": "Roango",
+      "description": "An application for searching for talents & jobs, and compiling works - company"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "An application for managing skills and faster finding workers with certain skills. It is also possible to reward each other with Hedera coins - company, access requires VPN"
+    },
+    "agro_app": {
+      "title": "AgroApp",
+      "description": "An application that includes keeping books, papers and records for all branches of agronomy (16 of them) in accordance with Croatian laws, and exporting and printing them - private, still develpoing"
+    },
+    "wedding_application": {
+      "title": "Wedding Application",
+      "description": "An application intended to be used as a wedding invitation and later for uploading official and unofficial images. Private images of wedding guests can be uploaded via a specific QR code or from the side of the administrator (photo staff or newlyweds) - private, still develpoing, not deployed yet"
+    },
+    "holy_book": {
+      "title": "Holy Book",
+      "description": "Application that was made to manage debts in a handball club - private, need some time to start backend server"
+    },
+    "student_monday": {
+      "title": "Student Monday",
+      "description": "An application that is made for society. To manage arrivals, laws and members - private"
+    },
+    "affiliate_marketing": {
+      "title": "Affiliate Marketing",
+      "description": "Application for creating your own online affiliate web shop with adding categories and subcategories and with automatic loading of product data from the affiliate link - private, not maintained for a long time"
+    },
+    "pokemons": {
+      "title": "Pokemons",
+      "description": "Pokemon name guesser trial app - private"
+    },
+    "the_purple_hat": {
+      "title": "The Purple Hat",
+      "description": "Application for ordering food and drinks inside the restaurant with logging by scanning the QR code from the table. Waiters can also keep a live order status - private, not maintained"
+    },
+    "chinese_food": {
+      "title": "Chinese Food",
+      "description": "Test application for ordering food and drinks inside the restaurant - private, not maintained, one of my first apps"
+    },
+    "github_repository": {
+      "title": "GitHub Repository",
+      "description": "Most of my other applications/projects are available on my GitHub repository"
+    }
+  }
+}

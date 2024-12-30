@@ -1,0 +1,180 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "skills": "Compétences",
+    "about": "À propos",
+    "projects": "Projets",
+    "LinkedIn": "LinkedIn",
+    "GitHub": "GitHub",
+    "Facebook": "Facebook"
+  },
+  "skills": {
+    "since": "Depuis",
+    "lots_of_oursera_certificates": "Beaucoup de certificats Coursera",
+    "hedera_certificate": "Certificat Hedera",
+    "years_of_experiance": "années d'expérience",
+    "year_of_experiance": "année d'expérience",
+    "months_of_experiance": "mois d'expérience",
+    "month_of_experiance": "mois d'expérience"
+  },
+  "about": {
+    "personal_information": "Informations personnelles",
+    "name": "Nom",
+    "place_of_birth": "Lieu de naissance",
+    "residence": "Résidence",
+    "current_position": "Poste actuel",
+    "professional_developer_since_2021": "Développeur professionnel depuis 2021",
+    "early_years": {
+      "title": "Premières années",
+      "text": "Je suis né à Našice, une charmante petite ville de l'Est de la Croatie, près d'Osijek. Dès mon jeune âge, j'ai montré un grand intérêt pour la technologie, animé par une curiosité naturelle pour le fonctionnement des choses et une passion pour la résolution de problèmes."
+    },
+    "Education": {
+      "titile": "Éducation",
+      "primary": {
+        "title": "École primaire : École élémentaire Dora Pejačević, Našice",
+        "text": "J'ai terminé les huit années de l'école primaire avec distinction, excellant constamment dans mes études et montrant un fort intérêt pour les ordinateurs et la technologie."
+      },
+      "secondary": {
+        "title": "École secondaire : Lycée Isidor Kršnjavi, Našice",
+        "text": "J'ai poursuivi une éducation en génie électrique, un choix naturel étant donné mon intérêt pour la technologie. Pendant ces années, j'ai affiné mes compétences en travaillant dans un magasin d'informatique local pendant les étés."
+      },
+      "higher": {
+        "title": "Éducation supérieure : Faculté de génie électrique, informatique et technologie de l'information (FERIT), Osijek",
+        "text": "Tout en travaillant comme serveur dans le pub le plus réputé de Našice, je me suis inscrit dans le programme de sciences informatiques à FERIT. Cela a marqué le début de mon parcours officiel dans le monde de l'IT, où j'ai obtenu avec succès le titre de bacc. ing. comp. (Bachelor en génie informatique)."
+      }
+    },
+    "professional_experience": {
+      "title": "Expérience professionnelle",
+      "barrage": {
+        "title": "Développeur Frontend - Barrage d.o.o., Osijek",
+        "text1": "Poste à temps plein pendant les études et après l'obtention du diplôme : 2021 - toujours en poste",
+        "text2": "J'ai rejoint Barrage en tant que développeur frontend, travaillant principalement avec Vue.js et Nuxt.js. Mon rôle s'est également étendu à des projets impliquant React et Next.js, me permettant d'acquérir une expérience précieuse avec des frameworks de développement web modernes.",
+        "before_projects": "Pendant mon séjour chez Barrage, j'ai contribué à de nombreux projets à fort impact, notamment :",
+        "project1": {
+          "title": "OneHub",
+          "text": "Un projet collaboratif pour T-Com, le principal fournisseur de télécommunications en Croatie, en partenariat avec Deutsche Telekom."
+        },
+        "project2": {
+          "title": "Travelspot",
+          "text": "Une marque unique dans le portfolio de Barrage, présentant des solutions web innovantes et évolutives pour les voyages d'affaires."
+        },
+        "text3": "Au-delà de mes responsabilités principales, j'ai constamment cherché des opportunités pour améliorer mes compétences, explorer de nouvelles technologies et contribuer à des projets tant personnels qu'en entreprise.",
+        "text4": {
+          "first_part": "Vous pouvez consulter mes autres projets",
+          "url_part": "ici."
+        }
+      }
+    },
+    "private_projects": {
+      "title": "Projets privés",
+      "text": "Tout au long de ma carrière académique et professionnelle, je me suis profondément engagé dans des initiatives privées qui m'ont permis de concrétiser des idées personnelles et externes tout en affinant mes compétences techniques. Ces projets ont renforcé mon expertise en tant que développeur full-stack, avec des compétences en :",
+      "frontend_skills": {
+        "title": "Frontend",
+        "text": "Vue.js, Nuxt.js, React, Next.js..."
+      },
+      "backend_skills": {
+        "title": "Backend",
+        "text": "Node.js, Express.js, Nest.js, Nuxt.js, Next.js..."
+      },
+      "database_skills": {
+        "title": "Base de données",
+        "text": "Prisma, PostgreSQL, MySQL, MongoDB..."
+      }
+    },
+    "personal_qualities": {
+      "title": "Qualités personnelles",
+      "text1": "Je suis une personne extrêmement ambitieuse et dédiée qui aime relever des défis et recherche constamment des opportunités pour progresser. Je suis fier de ma capacité à respecter les délais, à apprendre de nouveaux langages et frameworks, et à repousser les limites de ce que je peux accomplir. Que ce soit en équipe ou indépendamment, je fais preuve d'enthousiasme, de fiabilité et d'une mentalité axée sur les résultats dans chaque tâche.",
+      "text2": "Je suis désireux d'utiliser mes compétences et ma passion pour la technologie afin d'apporter des contributions significatives, de réaliser les objectifs de l'organisation et de continuer à progresser dans le monde en constante évolution de l'IT."
+    },
+    "certificates": {
+      "title": "Certificats",
+      "hedera-certificate": "Certificat Hedera - Hedera 2023",
+      "test-driven-development-java-beginners": "Développement piloté par les tests en Java pour débutants - Coursera 2021",
+      "software-processes-agile-practices": "Processus logiciels et pratiques agiles - Coursera 2021",
+      "software-development-processes-methodologies": "Processus et méthodologies de développement logiciel - Coursera 2021",
+      "software-architecture": "Architecture logicielle - Coursera 2021",
+      "service-oriented-architecture": "Architecture orientée services - Coursera 2021",
+      "server-side-development-nodejs-express-mongodb": "Développement côté serveur avec NodeJS, Express et MongoDB - Coursera 2021",
+      "programming-foundations-javascript-html": "Fondamentaux de la programmation avec JavaScript, HTML - Coursera 2021",
+      "object-oriented-design": "Conception orientée objet - Coursera 2021",
+      "linux-commands-shell-scripting-essentials": "Commandes Linux et Scripting Shell - Coursera 2021",
+      "linux-fundamentals": "Fondamentaux de Linux - Coursera 2021",
+      "lean-software-development": "Développement logiciel Lean - Coursera 2021",
+      "kubernetes-basic-architecture-first": "Architecture de base Kubernetes - Coursera 2021",
+      "java-programming-solving-problems-with-software": "Programmation Java pour résoudre des problèmes avec des logiciels - Coursera 2021",
+      "java-programming-principles-software-design": "Programmation Java : Principes de conception logicielle - Coursera 2021",
+      "java-programming-build-recommendation-system": "Programmation Java : Créer un système de recommandation - Coursera 2021",
+      "java-programming-arrays-lists-structured-data": "Programmation Java : Tableaux, listes et données structurées - Coursera 2021",
+      "introduction-unit-testing-jest-fundamentals": "Introduction aux tests unitaires avec Jest - Coursera 2021",
+      "introduction-test-driven-development": "Introduction au développement piloté par les tests - Coursera 2021",
+      "introduction-mongodb": "Introduction à MongoDB - Coursera 2021",
+      "introduction-git-github": "Introduction à Git et GitHub - Coursera 2021",
+      "hands-on-introduction-linux-commands": "Introduction pratique aux commandes Linux - Coursera 2021",
+      "front-end-web-ui-frameworks-tools-bootstrap-4": "Frameworks UI Web Front-End et outils - Coursera 2021",
+      "front-end-web-development-react": "Développement Web Front-End avec React - Coursera 2021",
+      "engineering-practices-building-quality": "Pratiques d'ingénierie pour la construction de la qualité - Coursera 2021",
+      "docker-for-absolute-beginners": "Docker pour les débutants - Coursera 2021",
+      "design-patterns": "Modèles de conception - Coursera 2021",
+      "database-design-basic-sql-postgresql": "Conception de bases de données et SQL de base en PostgreSQL - Coursera 2021",
+      "client-needs-software-requirements": "Besoins du client et exigences logicielles - Coursera 2021",
+      "c-for-everyone-programming-fundamentals": "C pour tous - Fondamentaux de la programmation - Coursera 2021",
+      "beginners-guide-yaml-syntax": "Guide du débutant sur la syntaxe YAML - Coursera 2021",
+      "agile-software-development": "Développement logiciel agile - Coursera 2021",
+      "practical-introduction-test-driven": "Introduction pratique au développement piloté par les tests - Coursera 2021"
+    }
+  },
+  "projects": {
+    "onehub": {
+      "title": "T-com OneHub",
+      "description": "Application du principal opérateur télécom croate en coopération avec Deutsche Telekom, qui regroupe 11 services différents pour les utilisateurs professionnels en un seul - entreprise, encore en développement"
+    },
+    "travelspot": {
+      "title": "Travelspot",
+      "description": "Une application pour organiser entièrement un voyage d'affaires avec transport, hébergement et autres éléments clés liés au voyage - entreprise"
+    },
+    "roango": {
+      "title": "Roango",
+      "description": "Une application pour rechercher des talents et des emplois, et compiler des travaux - entreprise"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Une application pour gérer les compétences et trouver plus rapidement des travailleurs ayant des compétences spécifiques. Il est également possible de se récompenser mutuellement avec des pièces Hedera - entreprise, l'accès nécessite un VPN"
+    },
+    "agro_app": {
+      "title": "AgroApp",
+      "description": "Une application qui comprend la gestion des livres, des papiers et des enregistrements pour tous les domaines de l'agronomie (16 d'entre eux) conformément aux lois croates, ainsi que leur exportation et leur impression - privée, encore en développement"
+    },
+    "wedding_application": {
+      "title": "Application de Mariage",
+      "description": "Une application destinée à être utilisée comme invitation de mariage et plus tard pour télécharger des images officielles et non officielles. Les images privées des invités de mariage peuvent être téléchargées via un code QR spécifique ou depuis le côté de l'administrateur (personnel photo ou mariés) - privée, encore en développement, pas encore déployée"
+    },
+    "holy_book": {
+      "title": "Livre Sacré",
+      "description": "Application conçue pour gérer les dettes dans un club de handball - privée, nécessite un peu de temps pour démarrer le serveur backend"
+    },
+    "student_monday": {
+      "title": "Student Monday",
+      "description": "Application développée pour la société. Pour gérer les arrivées, les lois et les membres - privée"
+    },
+    "affiliate_marketing": {
+      "title": "Marketing d'Affiliation",
+      "description": "Application pour créer son propre webshop d'affiliation en ligne avec ajout de catégories et sous-catégories et chargement automatique des données des produits depuis le lien affilié - privée, non maintenue depuis longtemps"
+    },
+    "pokemons": {
+      "title": "Pokemons",
+      "description": "Application d'essai pour deviner le nom des Pokémon - privée"
+    },
+    "the_purple_hat": {
+      "title": "Le Chapeau Violet",
+      "description": "Application pour commander des repas et des boissons dans un restaurant avec connexion en scannant le code QR de la table. Les serveurs peuvent également suivre l'état des commandes en direct - privée, non maintenue"
+    },
+    "chinese_food": {
+      "title": "Nourriture Chinoise",
+      "description": "Application de test pour commander de la nourriture et des boissons dans un restaurant - privée, non maintenue, l'une de mes premières applications"
+    },
+    "github_repository": {
+      "title": "Dépôt GitHub",
+      "description": "La plupart de mes autres applications/projets sont disponibles sur mon dépôt GitHub"
+    }
+  }
+}

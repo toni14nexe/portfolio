@@ -1,0 +1,180 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "skills": "Vještine",
+    "about": "O meni",
+    "projects": "Projekti",
+    "LinkedIn": "LinkedIn",
+    "GitHub": "GitHub",
+    "Facebook": "Facebook"
+  },
+  "skills": {
+    "since": "Od",
+    "lots_of_oursera_certificates": "Puno Coursera certifikata",
+    "hedera_certificate": "Hedera certifikat",
+    "years_of_experiance": "godine iskustva",
+    "year_of_experiance": "godina iskustva",
+    "months_of_experiance": "mjeseca iskustva",
+    "month_of_experiance": "mjesec iskustva"
+  },
+  "about": {
+    "personal_information": "Osobni podaci",
+    "name": "Ime",
+    "place_of_birth": "Mjesto rođenja",
+    "residence": "Prebivalište",
+    "current_position": "Trenutna pozicija",
+    "professional_developer_since_2021": "Profesionalni developer od 2021. godine",
+    "early_years": {
+      "title": "Rane godine",
+      "text": "Rođen sam u Našicama, šarmantnom malom gradu na istoku Hrvatske blizu Osijeka. Od malih nogu pokazivao sam duboko zanimanje za tehnologiju, potaknuto urođenom znatiželjom o tome kako stvari funkcioniraju i strašću za rješavanjem problema."
+    },
+    "Education": {
+      "titile": "Obrazovanje",
+      "primary": {
+        "title": "Osnovna škola: Osnovna škola Dora Pejačević, Našice",
+        "text": "Završio sam svih osam razreda osnovne škole s odličnim uspjehom, izvrsno napredujući u učenju i pokazujući snažnu sklonost računalima i tehnologiji."
+      },
+      "secondary": {
+        "title": "Srednja škola: Srednja škola Isidora Kršnjavoga, Našice",
+        "text": "Upisao sam elektrotehniku, prirodan izbor s obzirom na moj interes prema tehnologiji. Tijekom tih godina usavršavao sam svoje vještine radeći u lokalnoj informatičkoj trgovini tijekom ljeta. Moje odgovornosti uključivale su sastavljanje i popravak računala, prijenosnih računala i mobilnih uređaja, kao i osnove programiranja."
+      },
+      "higher": {
+        "title": "Visoko obrazovanje: Fakultet elektrotehnike, računarstva i informacijskih tehnologija (FERIT), Osijek",
+        "text": "Tijekom rada kao konobar u najpoznatijem baru u Našicama, upisao sam studij računarstva na FERIT-u. To je bio početak mog službenog puta u IT svijet, gdje sam uspješno stekao titulu bacc. ing. comp. (bachelor računalnog inženjerstva)."
+      }
+    },
+    "professional_experience": {
+      "title": "Profesionalno iskustvo",
+      "barrage": {
+        "title": "Frontend developer - Barrage d.o.o., Osijek",
+        "text1": "Puno radno vrijeme tijekom studija i nakon diplome: 2021. - trenutno",
+        "text2": "Pridružio sam se Barrageu kao frontend developer, uglavnom radeći s Vue.js i Nuxt.js. Moj rad uključivao je i projekte koji su koristili React i Next.js, gdje sam stekao dragocjeno iskustvo u najnovijim frameworkovima za razvoj web aplikacija.",
+        "before_projects": "Tijekom mog rada u Barrageu, pridonio sam brojnim projektima, uključujući:",
+        "project1": {
+          "title": "OneHub",
+          "text": "Projekt izrađen za T-Com, vodećeg telekomunikacijskog operatora u Hrvatskoj, koji posluju u suradnji s Deutsche Telekomom."
+        },
+        "project2": {
+          "title": "Travelspot",
+          "text": "Jedinstveni brend unutar Barrage portfelja koji prikazuje inovativna i skalabilna web rješenja za poslovna putovanja."
+        },
+        "text3": "Osim svojih osnovnih odgovornosti, stalno sam tražio prilike za unapređenje svojih vještina, istraživanje novih tehnologija i doprinosu projektima unutar tvrtke i osobnim projektima.",
+        "text4": {
+          "first_part": "Ostale projekte možete pogledati",
+          "url_part": "ovdje."
+        }
+      }
+    },
+    "private_projects": {
+      "title": "Privatni projekti",
+      "text": "Kroz svoj akademski i profesionalni put, duboko sam bio posvećen privatnim inicijativama koje su mi omogućile realizaciju osobnih i vanjskih ideja, dok sam usavršavao svoje tehničke vještine. Projekti na kojima sam sudjelovao su učvrstili moje stručnost kao full-stack developera s vještinama u:",
+      "frontend_skills": {
+        "title": "Frontend",
+        "text": "Vue.js, Nuxt.js, React, Next.js..."
+      },
+      "backend_skills": {
+        "title": "Backend",
+        "text": "Node.js, Express.js, Nest.js, Nuxt.js, Next.js..."
+      },
+      "database_skills": {
+        "title": "Baze podataka",
+        "text": "Prisma, PostgreSQL, MySQL, MongoDB..."
+      }
+    },
+    "personal_qualities": {
+      "title": "Osobne kvalitete",
+      "text1": "Izuzetno sam ambiciozna i posvećena osoba koja napreduje kroz izazove i stalno traži prilike za osobni rast. Ponosim se sposobnošću da ispunjavam rokove, učim nove jezike i frameworkove i pomičem granice onoga što mogu postići. Bilo kao dio tima ili samostalno, donosim entuzijazam, pouzdanost i ozbiljan pristup svakom zadatku.",
+      "text2": "Spreman sam iskoristiti svoje vještine i strast prema tehnologiji kako bih dao značajan doprinos, ostvario ciljeve organizacije i nastavio napredovati u IT svijetu."
+    },
+    "certificates": {
+      "title": "Certifikati",
+      "hedera-certificate": "Hedera certifikat - Hedera 2023",
+      "test-driven-development-java-beginners": "Test driven development u Javi za početnike - Coursera 2021",
+      "software-processes-agile-practices": "Softverski procesi i agilne prakse - Coursera 2021",
+      "software-development-processes-methodologies": "Procesi i metodologije razvoja softvera - Coursera 2021",
+      "software-architecture": "Softverska arhitektura - Coursera 2021",
+      "service-oriented-architecture": "Arhitektura usmjerena na usluge - Coursera 2021",
+      "server-side-development-nodejs-express-mongodb": "Razvoj poslužiteljske strane s NodeJS, Express i MongoDB - Coursera 2021",
+      "programming-foundations-javascript-html": "Osnove programiranja s JavaScriptom i HTML-om - Coursera 2021",
+      "object-oriented-design": "Objektno-orijentirani dizajn - Coursera 2021",
+      "linux-commands-shell-scripting-essentials": "Osnove Linux naredbi i skriptiranja - Coursera 2021",
+      "linux-fundamentals": "Osnove Linuxa - Coursera 2021",
+      "lean-software-development": "Lean razvoj softvera - Coursera 2021",
+      "kubernetes-basic-architecture-first": "Osnove arhitekture i prvi koraci u Kubernetesu - Coursera 2021",
+      "java-programming-solving-problems-with-software": "Programiranje u Javi: Rješavanje problema softverom - Coursera 2021",
+      "java-programming-principles-software-design": "Programiranje u Javi: Principi dizajna softvera - Coursera 2021",
+      "java-programming-build-recommendation-system": "Programiranje u Javi: Izrada sustava za preporuke - Coursera 2021",
+      "java-programming-arrays-lists-structured-data": "Programiranje u Javi: Nizovi, liste i strukturirani podaci - Coursera 2021",
+      "introduction-unit-testing-jest-fundamentals": "Uvod u testiranje jedinica u Jestu - Osnove - Coursera 2021",
+      "introduction-test-driven-development": "Uvod u razvoj vođen testovima - Coursera 2021",
+      "introduction-mongodb": "Uvod u MongoDB - Coursera 2021",
+      "introduction-git-github": "Uvod u Git i GitHub - Coursera 2021",
+      "hands-on-introduction-linux-commands": "Praktični uvod u Linux naredbe - Coursera 2021",
+      "front-end-web-ui-frameworks-tools-bootstrap-4": "Front-End UI okviri i alati s Bootstrap 4 - Coursera 2021",
+      "front-end-web-development-react": "Razvoj front-enda s Reactom - Coursera 2021",
+      "engineering-practices-building-quality": "Inženjerske prakse za izgradnju kvalitete - Coursera 2021",
+      "docker-for-absolute-beginners": "Docker za apsolutne početnike - Coursera 2021",
+      "design-patterns": "Dizajnerski obrasci - Coursera 2021",
+      "database-design-basic-sql-postgresql": "Dizajn baze podataka i osnove SQL-a u PostgreSQL - Coursera 2021",
+      "client-needs-software-requirements": "Potrebe klijenata i zahtjevi za softver - Coursera 2021",
+      "c-for-everyone-programming-fundamentals": "C za svakoga: Osnove programiranja - Coursera 2021",
+      "beginners-guide-yaml-syntax": "Vodič za početnike za YAML sintaksu - Coursera 2021",
+      "agile-software-development": "Agilni razvoj softvera - Coursera 2021",
+      "practical-introduction-test-driven": "Praktični uvod u test driven development - Coursera 2021"
+    }
+  },
+  "projects": {
+    "onehub": {
+      "title": "T-com OneHub",
+      "description": "Aplikacija vodećeg hrvatskog telekomunikacijskog operatora u suradnji s Deutsche Telekomom, koja ujedinjuje 11 različitih usluga za poslovne korisnike u jednu - Barrage, još uvijek u razvoju"
+    },
+    "travelspot": {
+      "title": "Travelspot",
+      "description": "Aplikacija za potpunu organizaciju poslovnog putovanja s prijevozom, smještajem i drugim ključnim stvarima vezanim uz putovanje - Barrage"
+    },
+    "roango": {
+      "title": "Roango",
+      "description": "Aplikacija za traženje talenata i poslova, te ugovaranje poslova - Barrage"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Aplikacija za upravljanje vještinama i brže pronalaženje radnika s određenim vještinama. Također je moguće međusobno nagrađivanje Hedera kovanicama - Barrage, pristup zahtijeva VPN"
+    },
+    "agro_app": {
+      "title": "AgroApp",
+      "description": "Aplikacija koja uključuje vođenje knjiga, papira i evidencije za sve grane agronomije (njih 16) u skladu s hrvatskim zakonima, te njihov izvoz i ispis - privatno, još uvijek u razvoju"
+    },
+    "wedding_application": {
+      "title": "Wedding Application",
+      "description": "Aplikacija koja će se koristiti kao pozivnica za vjenčanje, a kasnije za učitavanje službenih i neslužbenih slika. Privatne slike gostiju mogu se učitati putem specifičnog QR koda ili sa strane administratora (fotografskog osoblja ili mladenaca) - privatno, još uvijek u razvoju, još nije deployano"
+    },
+    "holy_book": {
+      "title": "Sveta knjiga",
+      "description": "Aplikacija koja je napravljena za upravljanje dugovima u rukometnom klubu - privatno, treba malo vremena za pokretanje backend servera"
+    },
+    "student_monday": {
+      "title": "Studentski Ponedjeljak",
+      "description": "Aplikacija koja je napravljena za društvo. Za upravljanje dolascima, zakonima i članovima - privatno"
+    },
+    "affiliate_marketing": {
+      "title": "Affiliate Marketing",
+      "description": "Aplikacija za kreiranje vlastite online affiliate web trgovine s dodavanjem kategorija i podkategorija te automatskim učitavanjem podataka o proizvodima s affiliate linka - privatno, nije održavano duže vrijeme"
+    },
+    "pokemons": {
+      "title": "Pokemons",
+      "description": "Pogađanje pokemon imena, probna aplikacija - privatno"
+    },
+    "the_purple_hat": {
+      "title": "The Purple Hat",
+      "description": "Aplikacija za naručivanje hrane i pića unutar restorana uz prijavu skeniranjem QR koda sa stola. Korisnici također mogu pratiti status narudžbe u stvarnom vremenu - privatno, nije održavano"
+    },
+    "chinese_food": {
+      "title": "Chinese Food",
+      "description": "Testna aplikacija za naručivanje hrane i pića unutar restorana - privatno, nije održavano, jedna od mojih prvih aplikacija"
+    },
+    "github_repository": {
+      "title": "GitHub Repository",
+      "description": "Većina mojih drugih aplikacija/projekata dostupna je na mom GitHub repozitoriju"
+    }
+  }
+}

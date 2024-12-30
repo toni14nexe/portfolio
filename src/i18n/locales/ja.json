@@ -1,0 +1,180 @@
+{
+  "header": {
+    "portfolio": "ポートレート",
+    "skills": "スキル",
+    "about": "自己紹介",
+    "projects": "プロジェクト",
+    "LinkedIn": "LinkedIn",
+    "GitHub": "GitHub",
+    "Facebook": "Facebook"
+  },
+  "skills": {
+    "since": "以来",
+    "lots_of_oursera_certificates": "多くのCoursera証明書",
+    "hedera_certificate": "Hedera証明書",
+    "years_of_experiance": "年の経験",
+    "year_of_experiance": "年の経験",
+    "months_of_experiance": "月の経験",
+    "month_of_experiance": "月の経験"
+  },
+  "about": {
+    "personal_information": "個人情報",
+    "name": "名前",
+    "place_of_birth": "出生地",
+    "residence": "居住地",
+    "current_position": "現在の役職",
+    "professional_developer_since_2021": "2021年からプロフェッショナルな開発者",
+    "early_years": {
+      "title": "初期の年",
+      "text": "私はクロアチア東部の小さな魅力的な町ナシツェで生まれました。幼少期からテクノロジーに興味を持ち、物事の仕組みに対する自然な好奇心と問題解決への情熱を抱いていました。"
+    },
+    "Education": {
+      "titile": "教育",
+      "primary": {
+        "title": "小学校: ドラ・ペヤチェビッチ小学校、ナシツェ",
+        "text": "私は小学校を優秀な成績で卒業し、常に学業において優れた成績を収め、コンピュータとテクノロジーに強い関心を示しました。"
+      },
+      "secondary": {
+        "title": "中学校: イシドール・クシュニャヴィ高等学校、ナシツェ",
+        "text": "私はテクノロジーへの関心を持ち続け、エレクトロニクスの分野での学問を追求しました。学校の夏休み中には、地元のパソコン店で働きながらスキルを磨きました。"
+      },
+      "higher": {
+        "title": "高等教育: Osijekの電気工学・コンピュータサイエンス学部（FERIT）",
+        "text": "ナシツェで最も評判の良いパブで働きながら、OsijekのFERITにコンピュータサイエンスプログラムに入学し、bacc. ing. comp. (コンピュータ工学の学士号)を取得しました。"
+      }
+    },
+    "professional_experience": {
+      "title": "職歴",
+      "barrage": {
+        "title": "フロントエンド開発者 - Barrage d.o.o., Osijek",
+        "text1": "学業の途中から卒業後までのフルタイム勤務: 2021年 - 現在",
+        "text2": "私はフロントエンド開発者としてBarrageに入社し、主にVue.jsとNuxt.jsを使用して開発を行っています。また、ReactとNext.jsを使ったプロジェクトにも携わり、最新のWeb開発フレームワークの経験を積んでいます。",
+        "before_projects": "Barrageでの勤務中、以下を含む多くの高影響プロジェクトに貢献しました：",
+        "project1": {
+          "title": "OneHub",
+          "text": "Deutsche Telekomと共同で、クロアチアの主要な通信会社T-Com向けに開発した共同プロジェクトです。"
+        },
+        "project2": {
+          "title": "Travelspot",
+          "text": "Barrageのポートフォリオ内で、ビジネス旅行向けの革新的でスケーラブルなWebソリューションを提供するブランドです。"
+        },
+        "text3": "主要な責任に加えて、私は常にスキルを向上させる機会を探し、新しい技術を探求し、個人および企業のプロジェクトに貢献しています。",
+        "text4": {
+          "first_part": "他のプロジェクトもこちらで確認できます",
+          "url_part": "こちら。"
+        }
+      }
+    },
+    "private_projects": {
+      "title": "プライベートプロジェクト",
+      "text": "私の学業と職業の経歴の中で、私は個人的なアイデアを実現し、技術的なスキルを磨くために多くのプライベートプロジェクトに取り組んできました。これらのプロジェクトを通じて、私はフルスタック開発者としての経験を深め、次のスキルを習得しました。",
+      "frontend_skills": {
+        "title": "フロントエンド",
+        "text": "Vue.js, Nuxt.js, React, Next.js..."
+      },
+      "backend_skills": {
+        "title": "バックエンド",
+        "text": "Node.js, Express.js, Nest.js, Nuxt.js, Next.js..."
+      },
+      "database_skills": {
+        "title": "データベース",
+        "text": "Prisma, PostgreSQL, MySQL, MongoDB..."
+      }
+    },
+    "personal_qualities": {
+      "title": "個人的な資質",
+      "text1": "私は非常に野心的で献身的な人間で、挑戦を好み、常に成長の機会を探しています。期限を守り、新しいプログラミング言語やフレームワークを学び、自分の限界を越えることに誇りを持っています。チームでも個人でも、私は熱意、信頼性、結果志向の態度で物事に取り組みます。",
+      "text2": "私はテクノロジーに対する情熱を活かして、組織の目標を達成し、ITの進化し続ける世界で成長し続けることに貢献することを楽しみにしています。"
+    },
+    "certificates": {
+      "title": "認定証",
+      "hedera-certificate": "Hedera証明書 - Hedera 2023",
+      "test-driven-development-java-beginners": "初心者のためのJavaによるテスト駆動開発 - Coursera 2021",
+      "software-processes-agile-practices": "ソフトウェアプロセスとアジャイルプラクティス - Coursera 2021",
+      "software-development-processes-methodologies": "ソフトウェア開発のプロセスと方法論 - Coursera 2021",
+      "software-architecture": "ソフトウェアアーキテクチャ - Coursera 2021",
+      "service-oriented-architecture": "サービス指向アーキテクチャ - Coursera 2021",
+      "server-side-development-nodejs-express-mongodb": "サーバーサイド開発Node.js、Express、MongoDB - Coursera 2021",
+      "programming-foundations-javascript-html": "JavaScript、HTMLによるプログラミング基礎 - Coursera 2021",
+      "object-oriented-design": "オブジェクト指向設計 - Coursera 2021",
+      "linux-commands-shell-scripting-essentials": "Linuxコマンドとシェルスクリプトの基本 - Coursera 2021",
+      "linux-fundamentals": "Linuxの基礎 - Coursera 2021",
+      "lean-software-development": "リーンソフトウェア開発 - Coursera 2021",
+      "kubernetes-basic-architecture-first": "Kubernetesの基本アーキテクチャ - Coursera 2021",
+      "java-programming-solving-problems-with-software": "ソフトウェアで問題を解決するJavaプログラミング - Coursera 2021",
+      "java-programming-principles-software-design": "Javaプログラミング：ソフトウェア設計の原則 - Coursera 2021",
+      "java-programming-build-recommendation-system": "Javaプログラミング：レコメンデーションシステムの構築 - Coursera 2021",
+      "java-programming-arrays-lists-structured-data": "Javaプログラミング：配列、リスト、構造化データ - Coursera 2021",
+      "introduction-unit-testing-jest-fundamentals": "Jestによるユニットテスト入門 - Coursera 2021",
+      "introduction-test-driven-development": "テスト駆動開発の導入 - Coursera 2021",
+      "introduction-mongodb": "MongoDB入門 - Coursera 2021",
+      "introduction-git-github": "GitとGitHubの入門 - Coursera 2021",
+      "hands-on-introduction-linux-commands": "Linuxコマンドの実践的入門 - Coursera 2021",
+      "front-end-web-ui-frameworks-tools-bootstrap-4": "フロントエンドWeb UIフレームワークとツール - Coursera 2021",
+      "front-end-web-development-react": "ReactによるフロントエンドWeb開発 - Coursera 2021",
+      "engineering-practices-building-quality": "品質を構築するためのエンジニアリング実践 - Coursera 2021",
+      "docker-for-absolute-beginners": "Docker完全初心者向け - Coursera 2021",
+      "design-patterns": "デザインパターン - Coursera 2021",
+      "database-design-basic-sql-postgresql": "データベース設計と基本SQL（PostgreSQL） - Coursera 2021",
+      "client-needs-software-requirements": "クライアントのニーズとソフトウェアの要件 - Coursera 2021",
+      "c-for-everyone-programming-fundamentals": "Cプログラミング入門 - Coursera 2021",
+      "beginners-guide-yaml-syntax": "YAML構文初心者ガイド - Coursera 2021",
+      "agile-software-development": "アジャイルソフトウェア開発 - Coursera 2021",
+      "practical-introduction-test-driven": "実践的なテスト駆動開発入門 - Coursera 2021"
+    }
+  },
+  "projects": {
+    "onehub": {
+      "title": "T-com OneHub",
+      "description": "Deutsche Telekomと協力したクロアチアの主要な通信事業者のアプリケーションで、11の異なるビジネスユーザーサービスを1つに統合しています。企業、現在開発中"
+    },
+    "travelspot": {
+      "title": "Travelspot",
+      "description": "出張の完全な組織を行うためのアプリケーションで、交通機関、宿泊施設、その他出張に関連する重要な事柄を管理します。企業"
+    },
+    "roango": {
+      "title": "Roango",
+      "description": "才能と仕事を検索し、作業を編成するためのアプリケーションです。企業"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "スキルを管理し、特定のスキルを持つ労働者を迅速に見つけるためのアプリケーションです。また、Hederaコインで互いに報酬を与えることもできます。企業、VPNアクセスが必要です"
+    },
+    "agro_app": {
+      "title": "AgroApp",
+      "description": "クロアチアの法律に基づいて、農業のすべての分野（16種類）の書類や記録を管理し、エクスポートおよび印刷するためのアプリケーションです。個人、開発中"
+    },
+    "wedding_application": {
+      "title": "結婚式アプリケーション",
+      "description": "結婚式の招待状として使用され、後で公式および非公式な画像をアップロードするためのアプリケーションです。結婚式のゲストのプライベート画像は、特定のQRコードを通じて、または管理者（写真スタッフまたは新郎新婦）側からアップロードできます。個人、開発中、まだ展開されていません"
+    },
+    "holy_book": {
+      "title": "聖書",
+      "description": "ハンドボールクラブの負債を管理するために作成されたアプリケーションです。個人、バックエンドサーバーの起動に少し時間がかかります"
+    },
+    "student_monday": {
+      "title": "Student Monday",
+      "description": "社会のために作られたアプリケーションです。到着、法律、メンバーの管理を行います。個人"
+    },
+    "affiliate_marketing": {
+      "title": "アフィリエイトマーケティング",
+      "description": "アフィリエイトリンクから自動的に製品データを読み込むことで、カテゴリーやサブカテゴリーを追加し、オンラインで独自のアフィリエイトショップを作成するためのアプリケーションです。個人、長期間メンテナンスされていません"
+    },
+    "pokemons": {
+      "title": "ポケモン",
+      "description": "ポケモンの名前を推測する試用アプリです。個人"
+    },
+    "the_purple_hat": {
+      "title": "紫の帽子",
+      "description": "レストラン内でテーブルのQRコードをスキャンしてログインし、料理や飲み物を注文するためのアプリケーションです。ウェイターは、注文状況をリアルタイムで確認することもできます。個人、メンテナンスされていません"
+    },
+    "chinese_food": {
+      "title": "中華料理",
+      "description": "レストラン内で料理や飲み物を注文するためのテストアプリです。個人、メンテナンスされていません、私の最初のアプリの1つ"
+    },
+    "github_repository": {
+      "title": "GitHubリポジトリ",
+      "description": "私の他のほとんどのアプリケーション/プロジェクトはGitHubリポジトリで利用可能です"
+    }
+  }
+}

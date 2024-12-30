@@ -22,9 +22,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <TcomIcon />
       </ElIcon>
     </template>
-    <template #heading> T-com OneHub </template>
-    Application of the leading Croatian telecom operator in cooperation with Deutsche Telekom, which
-    unites 11 different business-user services into one - company, still developing
+    <template #heading> {{ $t('projects.onehub.title') }} </template>
+    {{ $t('projects.onehub.description') }}
   </LineItem>
 
   <LineItem href="https://www.travelspot.com">
@@ -33,9 +32,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <TravelspotIcon />
       </ElIcon>
     </template>
-    <template #heading> Travelspot </template>
-    an application for the complete organization of a business trip with transportation,
-    accommodation and other key things related to the trip - company
+    <template #heading> {{ $t('projects.travelspot.title') }} </template>
+    {{ $t('projects.travelspot.description') }}
   </LineItem>
 
   <LineItem href="https://www.roango.com">
@@ -44,8 +42,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <RoangoIcon />
       </ElIcon>
     </template>
-    <template #heading> Roango </template>
-    An application for searching for talents & jobs, and compiling works - company
+    <template #heading> {{ $t('projects.roango.title') }} </template>
+    {{ $t('projects.roango.description') }}
   </LineItem>
 
   <LineItem href="https://expertise-application-expertise-web-development.guja.barrage.corp">
@@ -54,9 +52,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <SkillIcon />
       </ElIcon>
     </template>
-    <template #heading> Expertise </template>
-    An application for managing skills and faster finding workers with certain skills. It is also
-    possible to reward each other with Hedera coins - company, access requires VPN
+    <template #heading> {{ $t('projects.expertise.title') }} </template>
+    {{ $t('projects.expertise.description') }}
   </LineItem>
 
   <LineItem href="https://agro-application.netlify.app">
@@ -65,10 +62,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <AgroAppIcon />
       </ElIcon>
     </template>
-    <template #heading> AgroApp </template>
-    An application that includes keeping books, papers and records for all branches of agronomy (16
-    of them) in accordance with Croatian laws, and exporting and printing them - private, still
-    develpoing
+    <template #heading> {{ $t('projects.agro_app.title') }} </template>
+    {{ $t('projects.agro_app.description') }}
   </LineItem>
 
   <LineItem href="https://github.com/toni14nexe/wedding_template">
@@ -77,11 +72,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <WeddingAppIcon />
       </ElIcon>
     </template>
-    <template #heading> Wedding Application </template>
-    An application intended to be used as a wedding invitation and later for uploading official and
-    unofficial images. Private images of wedding guests can be uploaded via a specific QR code or
-    from the side of the administrator (photo staff or newlyweds) - private, still develpoing, not
-    deployed yet
+    <template #heading> {{ $t('projects.wedding_application.title') }} </template>
+    {{ $t('projects.wedding_application.description') }}
   </LineItem>
 
   <LineItem href="https://sveta-knjiga.netlify.app/">
@@ -90,9 +82,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <SvetaKnjigaIcon />
       </ElIcon>
     </template>
-    <template #heading> Sveta Knjiga </template>
-    Application that was made to manage debts in a handball club - private, need some time to start
-    backend server
+    <template #heading> {{ $t('projects.holy_book.title') }} </template>
+    {{ $t('projects.holy_book.description') }}
   </LineItem>
 
   <LineItem href="https://studentski.netlify.app/">
@@ -101,8 +92,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <StudentskiPonedjeljakIcon />
       </ElIcon>
     </template>
-    <template #heading> Studentski Ponedjeljak </template>
-    An application that is made for society. To manage arrivals, laws and members - private
+    <template #heading> {{ $t('projects.student_monday.title') }} </template>
+    {{ $t('projects.student_monday.description') }}
   </LineItem>
 
   <LineItem href="https://stunning-gumption-a4b1f6.netlify.app">
@@ -111,10 +102,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <AffiliateMarketingIcon />
       </ElIcon>
     </template>
-    <template #heading> Affiliate Marketing </template>
-    Application for creating your own online affiliate web shop with adding categories and
-    subcategories and with automatic loading of product data from the affiliate link - private, not
-    maintained for a long time
+    <template #heading> {{ $t('projects.affiliate_marketing.title') }} </template>
+    {{ $t('projects.affiliate_marketing.description') }}
   </LineItem>
 
   <LineItem href="https://starlit-treacle-8c8798.netlify.app">
@@ -123,8 +112,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <PokemonIcon />
       </ElIcon>
     </template>
-    <template #heading> Pokemons </template>
-    Pokemon name guesser trial app - private
+    <template #heading> {{ $t('projects.pokemons.title') }} </template>
+    {{ $t('projects.pokemons.description') }}
   </LineItem>
 
   <LineItem href="https://tiny-cascaron-845002.netlify.app">
@@ -133,9 +122,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <PurpleHatIcon />
       </ElIcon>
     </template>
-    <template #heading> The Purple Hat </template>
-    Application for ordering food and drinks inside the restaurant with registration by scanning the
-    QR code from the table. Waiters can also keep a live order status - private, not maintained
+    <template #heading> {{ $t('projects.the_purple_hat.title') }} </template>
+    {{ $t('projects.the_purple_hat.description') }}
   </LineItem>
 
   <LineItem href="https://app.netlify.com/sites/ephemeral-cat-833154/overvie">
@@ -144,9 +132,8 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <ChineseFoodIcon />
       </ElIcon>
     </template>
-    <template #heading> Chinese Food </template>
-    Test application for ordering food and drinks inside the restaurant - private, not maintained,
-    one of my first apps
+    <template #heading> {{ $t('projects.chinese_food.title') }} </template>
+    {{ $t('projects.chinese_food.description') }}
   </LineItem>
 
   <LineItem href="https://github.com/toni14nexe?tab=repositories">
@@ -155,7 +142,7 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <GitHubIcon />
       </ElIcon>
     </template>
-    <template #heading> GitHub repository </template>
-    Other applications are available on my GitHub account
+    <template #heading> {{ $t('projects.github_repository.title') }} </template>
+    {{ $t('projects.github_repository.description') }}
   </LineItem>
 </template>
