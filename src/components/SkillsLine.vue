@@ -17,6 +17,10 @@ import PythonIcon from '@/assets/icons/PythonIcon.vue'
 import JavaIcon from '@/assets/icons/JavaIcon.vue'
 import CIcon from '@/assets/icons/CIcon.vue'
 import PhpIcon from '@/assets/icons/PhpIcon.vue'
+import ExpressIcon from '@/assets/icons/ExpressIcon.vue'
+import MongoIcon from '@/assets/icons/MongoIcon.vue'
+import PrismaIcon from '@/assets/icons/PrismaIcon.vue'
+import NestIcon from '@/assets/icons/NestIcon.vue'
 </script>
 
 <template>
@@ -126,10 +130,26 @@ import PhpIcon from '@/assets/icons/PhpIcon.vue'
 
   <LineItem>
     <template #icon>
+      <ElIcon :size="28"> <PrismaIcon /></ElIcon>
+    </template>
+    <template #heading>Prisma</template>
+    1 year of experience
+  </LineItem>
+
+  <LineItem>
+    <template #icon>
       <ElIcon :size="28"> <SqlIcon /></ElIcon>
     </template>
     <template #heading>SQL - MySQL & PostreSQL</template>
     1 year of experience
+  </LineItem>
+
+  <LineItem>
+    <template #icon>
+      <ElIcon :size="28"> <MongoIcon /></ElIcon>
+    </template>
+    <template #heading>MongoDB</template>
+    6 months of experience
   </LineItem>
 
   <LineItem>
@@ -162,5 +182,21 @@ import PhpIcon from '@/assets/icons/PhpIcon.vue'
     </template>
     <template #heading>PHP</template>
     3 months of experience
+  </LineItem>
+
+  <LineItem>
+    <template #icon>
+      <ElIcon :size="28"> <ExpressIcon /></ElIcon>
+    </template>
+    <template #heading>Express.js</template>
+    3 months of experience
+  </LineItem>
+
+  <LineItem>
+    <template #icon>
+      <ElIcon :size="28"> <NestIcon /></ElIcon>
+    </template>
+    <template #heading>Nest.js</template>
+    1 month of experience
   </LineItem>
 </template>
