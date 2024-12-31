@@ -4,8 +4,11 @@
 }
 
 .el-button {
-  --el-color-primary-light-9: transparent;
-  --el-color-primary-light-5: var(--el-color-primary);
+  --el-color-primary-light-9: transparent !important;
+  --el-color-primary-light-5: var(--el-color-primary) !important;
+  --el-button-active-color: var(--el-color-primary) !important;
+  --el-button-active-bg-color: var(--el-color-primary) !important;
+  --el-button-active-border-color: var(--el-color-primary) !important;
 }
 
 .el-tooltip__trigger {

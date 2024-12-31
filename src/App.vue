@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
 import LinkedInIcon from '@/assets/icons/LinkedInIcon.vue'
 import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
 import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
@@ -15,6 +15,7 @@ import { saveCookie } from '@/i18n'
 import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
+const route = useRoute()
 const selectedLanguage = ref([locale.value])
 const tempSelectedLanguage = ref(locale.value)
 let selectedLanguageIcon = undefined
@@ -88,13 +89,19 @@ function changeLanguage(languageOption) {
 
         <nav>
           <RouterLink to="/">
-            <ElButton type="primary" plain>{{ $t('header.skills') }}</ElButton>
+            <ElButton type="primary" plain :class="{ 'active-btn': route.name === 'skills' }">
+              {{ $t('header.skills') }}
+            </ElButton>
           </RouterLink>
           <RouterLink to="/about" class="ml-8">
-            <ElButton type="primary" plain>{{ $t('header.about') }}</ElButton>
+            <ElButton type="primary" plain :class="{ 'active-btn': route.name === 'about' }">
+              {{ $t('header.about') }}
+            </ElButton>
           </RouterLink>
           <RouterLink to="/projects" class="ml-8">
-            <ElButton type="primary" plain>{{ $t('header.projects') }}</ElButton>
+            <ElButton type="primary" plain :class="{ 'active-btn': route.name === 'projects' }">
+              {{ $t('header.projects') }}
+            </ElButton>
           </RouterLink>
         </nav>
 
@@ -194,6 +201,11 @@ header {
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+}
+
+.active-btn {
+  background-color: var(--el-color-primary);
+  color: white;
 }
 
 @media (max-width: 1199px) {
