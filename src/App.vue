@@ -11,11 +11,13 @@ import FranceIcon from '@/assets/i18n/FranceIcon.vue'
 import ItalyIcon from '@/assets/i18n/ItalyIcon.vue'
 import PortugalIcon from '@/assets/i18n/PortugalIcon.vue'
 import JapanIcon from '@/assets/i18n/JapanIcon.vue'
-import i18n, { saveCookie } from '@/i18n'
+import { saveCookie } from '@/i18n'
+import { useI18n } from 'vue-i18n'
 
-const selectedLanguage = ref([i18n.global.locale])
-const tempSelectedLanguage = ref(i18n.global.locale)
-const selectedLanguageIcon = ref()
+const { locale } = useI18n()
+const selectedLanguage = ref([locale.value])
+const tempSelectedLanguage = ref(locale.value)
+let selectedLanguageIcon = undefined
 const languages = [
   { value: 'en', icon: EnglishIcon },
   { value: 'cr', icon: CroatiaIcon },
@@ -29,14 +31,13 @@ const languages = [
 onMounted(() => setLanguageIcon())
 
 function setLanguageIcon() {
-  const locale = i18n.global.locale
-  if (locale === 'en') selectedLanguageIcon.value = EnglishIcon
-  else if (locale === 'cr') selectedLanguageIcon.value = CroatiaIcon
-  else if (locale === 'ge') selectedLanguageIcon.value = GermanIcon
-  else if (locale === 'fr') selectedLanguageIcon.value = FranceIcon
-  else if (locale === 'it') selectedLanguageIcon.value = ItalyIcon
-  else if (locale === 'pt') selectedLanguageIcon.value = PortugalIcon
-  else if (locale === 'ja') selectedLanguageIcon.value = JapanIcon
+  if (locale === 'en') selectedLanguageIcon = EnglishIcon
+  else if (locale.value === 'cr') selectedLanguageIcon = CroatiaIcon
+  else if (locale.value === 'ge') selectedLanguageIcon = GermanIcon
+  else if (locale.value === 'fr') selectedLanguageIcon = FranceIcon
+  else if (locale.value === 'it') selectedLanguageIcon = ItalyIcon
+  else if (locale.value === 'pt') selectedLanguageIcon = PortugalIcon
+  else if (locale.value === 'ja') selectedLanguageIcon = JapanIcon
 }
 
 function changeLanguage(languageOption) {
@@ -48,10 +49,10 @@ function changeLanguage(languageOption) {
     selectedLanguage.value = [languageOption[0]]
     tempSelectedLanguage.value = [languageOption[0]]
   }
-  i18n.global.locale = selectedLanguage.value[0]
+  locale.value = selectedLanguage.value[0]
   saveCookie('i18n_lang', selectedLanguage.value, 365)
   const selectedLang = languages.find((lang) => lang.value === selectedLanguage.value[0])
-  selectedLanguageIcon.value = selectedLang ? selectedLang.icon : EnglishIcon
+  selectedLanguageIcon = selectedLang ? selectedLang.icon : EnglishIcon
 }
 </script>
 

@@ -41,6 +41,7 @@ async function loadLocaleMessages() {
 await loadLocaleMessages()
 
 const i18n = createI18n({
+  legacy: false,
   locale: getCookie('i18n_lang'),
   fallbackLocale: 'en',
   messages,
