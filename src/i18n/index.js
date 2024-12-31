@@ -2,7 +2,7 @@ import { createI18n } from 'vue-i18n'
 
 const messages = {}
 
-export function saveCookie(name, value, days) {
+function saveCookie(name, value, days) {
   let expires = ''
   if (days) {
     const date = new Date()
@@ -38,13 +38,17 @@ async function loadLocaleMessages() {
   }
 }
 
-await loadLocaleMessages()
+async function initializeI18n() {
+  await loadLocaleMessages()
+  let language = getCookie('i18n_lang') || 'en' // Default to 'en' if no cookie exists
+  saveCookie('i18n_lang', language, 365)
 
-const i18n = createI18n({
-  legacy: false,
-  locale: getCookie('i18n_lang'),
-  fallbackLocale: 'en',
-  messages,
-})
+  return createI18n({
+    legacy: false,
+    locale: language,
+    fallbackLocale: 'en',
+    messages,
+  })
+}
 
-export default i18n
+export { initializeI18n, saveCookie, getCookie }
