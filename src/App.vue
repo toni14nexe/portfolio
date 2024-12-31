@@ -31,7 +31,7 @@ const languages = [
 onMounted(() => setLanguageIcon())
 
 function setLanguageIcon() {
-  if (locale === 'en') selectedLanguageIcon = EnglishIcon
+  if (locale.value === 'en') selectedLanguageIcon = EnglishIcon
   else if (locale.value === 'cr') selectedLanguageIcon = CroatiaIcon
   else if (locale.value === 'ge') selectedLanguageIcon = GermanIcon
   else if (locale.value === 'fr') selectedLanguageIcon = FranceIcon
