@@ -62,7 +62,7 @@ function changeLanguage(languageOption) {
       <img class="logo" src="@/assets/images/me.jpeg" alt="Toni Kolarić" width="200" height="200" />
       <div class="header-right-container">
         <div>
-          <h1 class="primary-color">Toni Kolarić</h1>
+          <h1 class="primary-color title">Toni Kolarić</h1>
           <div class="portfolio-language-wrapper">
             <h1>{{ $t('header.portfolio') }}</h1>
             <ElSelect
@@ -169,6 +169,10 @@ header {
   width: 50%;
 }
 
+.title {
+  width: fit-content;
+}
+
 .portfolio-language-wrapper {
   display: flex;
   gap: 16px;
@@ -190,5 +194,43 @@ header {
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+}
+
+@media (max-width: 1199px) {
+  html {
+    flex-direction: column;
+  }
+
+  header {
+    width: 100%;
+    max-height: fit-content;
+    margin-top: 0;
+  }
+
+  .header-right-container {
+    width: fit-content;
+  }
+
+  .router-view {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .header-right-container {
+    align-items: center;
+  }
+
+  .title {
+    justify-self: center;
+  }
+
+  .router-view {
+    width: 100%;
+  }
 }
 </style>

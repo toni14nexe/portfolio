@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'projects',
       component: () => import('../pages/ProjectsPage.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('../pages/NotFoundPage.vue'),
+    },
   ],
   scrollBehavior() {
     return { top: 0, behavior: 'smooth' }
