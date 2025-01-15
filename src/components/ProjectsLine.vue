@@ -27,7 +27,7 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
     {{ $t('projects.onehub.description') }}
   </LineItem>
 
-  <LineItem href="https://github.com/orgs/barrage/repositories">
+  <LineItem href="https://github.com/barrage/ragu-web-app">
     <template #icon>
       <ElIcon :size="28">
         <RaguIcon />
