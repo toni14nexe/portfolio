@@ -2,6 +2,7 @@
 import LineItem from './LineItem.vue'
 import TcomIcon from '@/assets/icons/TcomIcon.vue'
 import TravelspotIcon from '@/assets/icons/TravelspotIcon.vue'
+import RaguIcon from '@/assets/icons/RaguIcon.vue'
 import RoangoIcon from '@/assets/icons/RoangoIcon.vue'
 import SkillIcon from '@/assets/icons/SkillIcon.vue'
 import AgroAppIcon from '@/assets/icons/AgroAppIcon.vue'
@@ -24,6 +25,16 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
     </template>
     <template #heading> {{ $t('projects.onehub.title') }} </template>
     {{ $t('projects.onehub.description') }}
+  </LineItem>
+
+  <LineItem href="https://github.com/orgs/barrage/repositories">
+    <template #icon>
+      <ElIcon :size="28">
+        <RaguIcon />
+      </ElIcon>
+    </template>
+    <template #heading> {{ $t('projects.ragu.title') }} </template>
+    {{ $t('projects.ragu.description') }}
   </LineItem>
 
   <LineItem href="https://www.travelspot.com">

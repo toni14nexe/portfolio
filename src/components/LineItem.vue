@@ -5,7 +5,7 @@ defineProps(['href'])
 <template>
   <div class="item">
     <a v-if="href" :href="href" target="_blank">
-      <i>
+      <i class="icon">
         <slot name="icon" />
       </i>
     </a>
@@ -43,6 +43,12 @@ i {
   width: 32px;
   height: 32px;
   color: var(--color-text);
+  transition: 0.4s;
+}
+
+i:hover {
+  transition: 0.4s;
+  color: var(--el-color-primary);
 }
 
 h3 {

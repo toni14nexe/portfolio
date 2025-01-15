@@ -22,8 +22,13 @@
     "name": "Ime",
     "place_of_birth": "Mjesto rođenja",
     "residence": "Prebivalište",
-    "current_position": "Trenutna pozicija",
+    "current_position": "Trenutna pozicija: Frontend Developer u Barrage d.o.o.",
     "professional_developer_since_2021": "Profesionalni developer od 2021. godine",
+    "languages": {
+      "title": "Jezici",
+      "croatian": "Materinji jezik, najviša razina govora, slušanja i pisanja",
+      "english": "A2-A1 razina govora, slušanja i pisanja"
+    },
     "early_years": {
       "title": "Mladost",
       "text": "Rođen sam u Našicama, šarmantnom malom gradu na istoku Hrvatske blizu Osijeka. Od malih nogu pokazivao sam duboko zanimanje za tehnologiju, potaknuto urođenom znatiželjom o tome kako stvari funkcioniraju i strašću za rješavanjem problema."
@@ -131,6 +136,10 @@
     "travelspot": {
       "title": "Travelspot",
       "description": "Aplikacija za potpunu organizaciju poslovnog putovanja s prijevozom, smještajem i drugim ključnim stvarima vezanim uz putovanje - Barrage"
+    },
+    "ragu": {
+      "title": "Ragu",
+      "description": "Open-source platforma koja omogućuje prilagodljive AI agente. Agenti se mogu trenirati ubacivanjem datoteka (PDF, Word, itd.) kako bi unaprijedili svoje znanje i sposobnosti za razgovor. Administratori mogu prilagoditi jezik i ponašanje agenata putem back-office sučelja, dok korisnici komuniciraju s odobrenim agentima i upravljaju višestrukim razgovorima istovremeno. Platforma također podržava integraciju s WhatsAppom, s glavnim agentom određenim za mobilnu komunikaciju - Barrage, još uvijek u razvoju"
     },
     "roango": {
       "title": "Roango",

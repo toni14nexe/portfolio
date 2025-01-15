@@ -1,11 +1,14 @@
 <script setup>
 import PersonalInfoIcon from '@/assets/icons/PersonalInfoIcon.vue'
+import LocaleIcon from '@/assets/icons/LocaleIcon.vue'
 import EarlyYearsIcon from '@/assets/icons/EarlyYearsIcon.vue'
 import EducationIcon from '@/assets/icons/EducationIcon.vue'
 import ProfessionalExperienceIcon from '@/assets/icons/ProfessionalExperienceIcon.vue'
 import PrivateProjectsIcon from '@/assets/icons/PrivateProjectsIcon.vue'
 import PersonalQualitiesIcon from '@/assets/icons/PersonalQualitiesIcon.vue'
 import CertificatesIcon from '@/assets/icons/CertificatesIcon.vue'
+import CroatiaIcon from '@/assets/i18n/CroatiaIcon.vue'
+import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
 </script>
 
 <template>
@@ -27,6 +30,23 @@ import CertificatesIcon from '@/assets/icons/CertificatesIcon.vue'
           <br />
           {{ $t('about.professional_developer_since_2021') }}
         </p>
+      </div>
+    </div>
+
+    <div class="paragraph-wrapper">
+      <div class="title-wrapper">
+        <ElIcon :size="28"><LocaleIcon color="white" /></ElIcon>
+        <h2 class="color-white">{{ $t('about.languages.title') }}</h2>
+      </div>
+      <div>
+        <div class="title-wrapper">
+          <ElIcon :size="28" class="mr-8"><CroatiaIcon color="white" /></ElIcon>
+          {{ $t('about.languages.croatian') }}
+        </div>
+        <div class="title-wrapper mt-8">
+          <ElIcon :size="28" class="mr-8"><EnglishIcon color="white" /></ElIcon>
+          {{ $t('about.languages.english') }}
+        </div>
       </div>
     </div>
 

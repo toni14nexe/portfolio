@@ -22,8 +22,13 @@
     "name": "Nome",
     "place_of_birth": "Luogo di nascita",
     "residence": "Residenza",
-    "current_position": "Posizione attuale",
+    "current_position": "Posizione attuale: Sviluppatore Frontend presso Barrage d.o.o.",
     "professional_developer_since_2021": "Sviluppatore professionista dal 2021",
+    "languages": {
+      "title": "Lingue",
+      "croatian": "Lingua madre, il massimo livello di parlato, ascolto e scrittura",
+      "english": "Livello A2-A1 di parlato, ascolto e scrittura"
+    },
     "early_years": {
       "title": "Prime anni",
       "text": "Sono nato a Našice, una piccola e affascinante città dell'est della Croazia, vicino a Osijek. Fin da giovane ho dimostrato un grande interesse per la tecnologia, alimentato dalla curiosità su come funzionano le cose e dalla passione per la risoluzione dei problemi."
@@ -131,6 +136,10 @@
     "travelspot": {
       "title": "Travelspot",
       "description": "Un'applicazione per l'organizzazione completa di un viaggio di lavoro con trasporto, alloggio e altre cose chiave relative al viaggio - azienda"
+    },
+    "ragu": {
+      "title": "Ragu",
+      "description": "Una piattaforma open-source che consente agenti AI personalizzabili. Gli agenti possono essere addestrati caricando file (PDF, Word, ecc.) per migliorare le loro conoscenze e capacità di conversazione. Gli amministratori possono regolare la lingua e il comportamento degli agenti tramite un'interfaccia di back-office, mentre gli utenti comunicano con agenti approvati e gestiscono più conversazioni contemporaneamente. La piattaforma supporta anche l'integrazione con WhatsApp, con un agente principale designato per la comunicazione mobile - azienda, ancora in sviluppo"
     },
     "roango": {
       "title": "Roango",
