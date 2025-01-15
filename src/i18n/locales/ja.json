@@ -20,6 +20,8 @@
   },
   "about": {
     "personal_information": "個人情報",
+    "birth": "生まれた",
+    "birth_date": "1998年12月20日",
     "name": "名前",
     "place_of_birth": "出生地",
     "residence": "居住地",

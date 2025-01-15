@@ -20,6 +20,8 @@
   },
   "about": {
     "personal_information": "Informazioni personali",
+    "birth": "Nato",
+    "birth_date": "20/12/1998",
     "name": "Nome",
     "place_of_birth": "Luogo di nascita",
     "residence": "Residenza",

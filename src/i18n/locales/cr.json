@@ -20,6 +20,8 @@
   },
   "about": {
     "personal_information": "Osobni podaci",
+    "birth": "Rođen",
+    "birth_date": "20.12.1998.",
     "name": "Ime",
     "place_of_birth": "Mjesto rođenja",
     "residence": "Prebivalište",

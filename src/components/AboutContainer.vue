@@ -22,6 +22,8 @@ import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
         <p>
           <span class="color-white">{{ `${$t('about.name')}: Toni Kolarić` }}</span>
           <br />
+          <span class="color-white">{{ `${$t('about.birth')}: ${$t('about.birth_date')}` }}</span>
+          <br />
           <span class="color-white">{{ `${$t('about.place_of_birth')}: Našice, Croatia` }}</span>
           <br />
           <span class="color-white">{{ `${$t('about.residence')}: Martin, Našice, Croatia` }}</span>
