@@ -64,6 +64,7 @@ function changeLanguage(languageOption) {
       <div class="header-right-container">
         <div>
           <h1 class="primary-color title">Toni Kolarić</h1>
+          <p>{{ $t('header.the_title') }}</p>
           <div class="portfolio-language-wrapper">
             <h1>{{ $t('header.portfolio') }}</h1>
             <ElSelect
