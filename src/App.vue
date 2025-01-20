@@ -4,6 +4,7 @@ import { RouterLink, RouterView, useRoute } from 'vue-router'
 import LinkedInIcon from '@/assets/icons/LinkedInIcon.vue'
 import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
 import FacebookIcon from '@/assets/icons/FacebookIcon.vue'
+import EmailIcon from '@/assets/icons/EmailIcon.vue'
 import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
 import CroatiaIcon from '@/assets/i18n/CroatiaIcon.vue'
 import GermanIcon from '@/assets/i18n/GermanIcon.vue'
@@ -134,6 +135,16 @@ function changeLanguage(languageOption) {
               class="ml-8"
             >
               <ElIcon :size="36"><FacebookIcon color="#ebebeba3" /></ElIcon>
+            </a>
+          </ElTooltip>
+          <ElTooltip content="toni14nexe@gmail.com">
+            <a
+              href="mailto:toni14nexe@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ml-8"
+            >
+              <ElIcon :size="36"><EmailIcon color="#ebebeba3" /></ElIcon>
             </a>
           </ElTooltip>
         </nav>
