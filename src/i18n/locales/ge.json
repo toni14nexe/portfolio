@@ -30,7 +30,7 @@
     "languages": {
       "title": "Sprachen",
       "croatian": "Kroatisch - Muttersprache, höchstes Niveau in Sprechen, Hören und Schreiben",
-      "english": "Englisch - A2-A1 Niveau in Sprechen, Hören und Schreiben"
+      "english": "Englisch - B2-B1 Niveau in Sprechen, Hören und Schreiben"
     },
     "early_years": {
       "title": "Frühe Jahre",
@@ -94,6 +94,11 @@
       "text1": "Ich bin eine hochambitionierte und engagierte Person, die Herausforderungen liebt und ständig nach Möglichkeiten zur Weiterentwicklung sucht. Ich bin stolz auf meine Fähigkeit, Deadlines einzuhalten, neue Programmiersprachen und Frameworks zu erlernen und die Grenzen dessen zu erweitern, was ich erreichen kann. Ob im Team oder selbstständig, ich bringe Begeisterung, Zuverlässigkeit und eine ergebnisorientierte Denkweise in jede Aufgabe.",
       "text2": "Ich freue mich darauf, meine Fähigkeiten und meine Leidenschaft für Technologie zu nutzen, um bedeutende Beiträge zu leisten, organisatorische Ziele zu erreichen und mich kontinuierlich in der sich ständig weiterentwickelnden IT-Welt weiterzuentwickeln."
     },
+    "blogs": {
+      "title": "Blogs",
+      "pwa": "Progressive Web Apps: Sparen Sie Zeit und verbessern Sie die Benutzererfahrung auf allen Geräten",
+      "eea": "Europäisches Barrierefreiheitsgesetz (EAA) Frontend-Integration – intern im Unternehmen"
+    },
     "certificates": {
       "title": "Zertifikate",
       "hedera-certificate": "Hedera-Zertifikat - Hedera 2023",
@@ -147,6 +152,10 @@
     "roango": {
       "title": "Roango",
       "description": "Eine Anwendung zum Suchen von Talenten und Jobs sowie zum Zusammenstellen von Arbeiten – Unternehmen"
+    },
+    "tankdaten": {
+      "title": "TankDaten",
+      "description": "Eine Anwendung zur Verwaltung großer Baustellen (Projekte, Standorte, Maschinen, Tanks, Benutzer und Berichte) mit Schwerpunkt auf Kraftstoffverbrauch und der Vermeidung von Kraftstoffdiebstahl – Troido-Unternehmendo"
     },
     "expertise": {
       "title": "Expertise",

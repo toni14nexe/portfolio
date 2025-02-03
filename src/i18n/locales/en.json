@@ -30,7 +30,7 @@
     "languages": {
       "title": "Languages",
       "croatian": "Croatian - Native language, the highest level of speaking, listening and writing",
-      "english": "English - A2-A1 level of speaking, listening and writing"
+      "english": "English - B2-B1 level of speaking, listening and writing"
     },
     "early_years": {
       "title": "Early Years",
@@ -94,6 +94,11 @@
       "text1": "I am a highly ambitious and dedicated individual who thrives on challenges and constantly seeks opportunities to grow. I take pride in my ability to meet deadlines, learn new languages and frameworks, and push the boundaries of what I can achieve. Whether as part of a team or independently, I bring enthusiasm, reliability, and a results-driven mindset to every task.",
       "text2": "I am eager to leverage my skills and passion for technology to make meaningful contributions, achieve organizational goals, and continue advancing in the ever-evolving world of IT."
     },
+    "blogs": {
+      "title": "Blogs",
+      "pwa": "Progressive Web Apps: Save time and improve user experience on all devices",
+      "eea": "European Accessibility Act (EAA) frontend integration - internally in the company"
+    },
     "certificates": {
       "title": "Certificates",
       "hedera-certificate": "Hedera certificate - Hedera 2023",
@@ -147,6 +152,10 @@
     "roango": {
       "title": "Roango",
       "description": "An application for searching for talents & jobs, and compiling works - company"
+    },
+    "tankdaten": {
+      "title": "TankDaten",
+      "description": "An application for managing large construction sites (projects, locations, machines, tanks, users, and reports) with a focus on fuel consumption and preventing fuel theft - Troido company"
     },
     "expertise": {
       "title": "Expertise",

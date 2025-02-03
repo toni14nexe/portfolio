@@ -4,6 +4,7 @@ import TcomIcon from '@/assets/icons/TcomIcon.vue'
 import TravelspotIcon from '@/assets/icons/TravelspotIcon.vue'
 import RaguIcon from '@/assets/icons/RaguIcon.vue'
 import RoangoIcon from '@/assets/icons/RoangoIcon.vue'
+import TankDatenIcon from '@/assets/icons/TankDatenIcon.vue'
 import SkillIcon from '@/assets/icons/SkillIcon.vue'
 import AgroAppIcon from '@/assets/icons/AgroAppIcon.vue'
 import WeddingAppIcon from '@/assets/icons/WeddingAppIcon.vue'
@@ -14,6 +15,7 @@ import PokemonIcon from '@/assets/icons/PokemonIcon.vue'
 import PurpleHatIcon from '@/assets/icons/PurpleHatIcon.vue'
 import ChineseFoodIcon from '@/assets/icons/ChineseFoodIcon.vue'
 import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
+import OpenLinkIcon from '@/assets/icons/OpenLinkIcon.vue'
 </script>
 
 <template>
@@ -23,7 +25,12 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <TcomIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.onehub.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.onehub.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon>
+      </div>
+    </template>
     {{ $t('projects.onehub.description') }}
   </LineItem>
 
@@ -33,7 +40,12 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <RaguIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.ragu.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.ragu.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon>
+      </div>
+    </template>
     {{ $t('projects.ragu.description') }}
   </LineItem>
 
@@ -43,7 +55,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <TravelspotIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.travelspot.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.travelspot.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.travelspot.description') }}
   </LineItem>
 
@@ -53,8 +69,26 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <RoangoIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.roango.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.roango.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.roango.description') }}
+  </LineItem>
+
+  <LineItem href="https://tankdaten.net/">
+    <template #icon>
+      <ElIcon :size="28">
+        <TankDatenIcon />
+      </ElIcon>
+    </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.tankdaten.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
+    {{ $t('projects.tankdaten.description') }}
   </LineItem>
 
   <LineItem href="https://expertise-application-expertise-web-development.guja.barrage.corp">
@@ -63,7 +97,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <SkillIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.expertise.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.expertise.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.expertise.description') }}
   </LineItem>
 
@@ -73,7 +111,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <AgroAppIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.agro_app.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.agro_app.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.agro_app.description') }}
   </LineItem>
 
@@ -83,7 +125,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <WeddingAppIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.wedding_application.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.wedding_application.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.wedding_application.description') }}
   </LineItem>
 
@@ -93,7 +139,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <SvetaKnjigaIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.holy_book.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.holy_book.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.holy_book.description') }}
   </LineItem>
 
@@ -103,7 +153,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <StudentskiPonedjeljakIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.student_monday.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.student_monday.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.student_monday.description') }}
   </LineItem>
 
@@ -113,7 +167,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <AffiliateMarketingIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.affiliate_marketing.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.affiliate_marketing.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.affiliate_marketing.description') }}
   </LineItem>
 
@@ -123,7 +181,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <PokemonIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.pokemons.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.pokemons.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.pokemons.description') }}
   </LineItem>
 
@@ -133,7 +195,11 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <PurpleHatIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.the_purple_hat.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.the_purple_hat.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.the_purple_hat.description') }}
   </LineItem>
 
@@ -143,7 +209,12 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <ChineseFoodIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.chinese_food.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.chinese_food.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon>
+      </div>
+    </template>
     {{ $t('projects.chinese_food.description') }}
   </LineItem>
 
@@ -153,7 +224,19 @@ import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
         <GitHubIcon />
       </ElIcon>
     </template>
-    <template #heading> {{ $t('projects.github_repository.title') }} </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.github_repository.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon></div
+    ></template>
     {{ $t('projects.github_repository.description') }}
   </LineItem>
 </template>
+
+<style lang="css" scoped>
+.heading-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+</style>

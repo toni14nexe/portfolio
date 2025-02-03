@@ -30,7 +30,7 @@
     "languages": {
       "title": "Langues",
       "croatian": "Croate - Langue maternelle, le plus haut niveau de parole, d'écoute et d'écriture",
-      "english": "Anglais - Niveau A2-A1 de parole, d'écoute et d'écriture"
+      "english": "Anglais - Niveau B2-B1 de parole, d'écoute et d'écriture"
     },
     "early_years": {
       "title": "Premières années",
@@ -94,6 +94,11 @@
       "text1": "Je suis une personne extrêmement ambitieuse et dédiée qui aime relever des défis et recherche constamment des opportunités pour progresser. Je suis fier de ma capacité à respecter les délais, à apprendre de nouveaux langages et frameworks, et à repousser les limites de ce que je peux accomplir. Que ce soit en équipe ou indépendamment, je fais preuve d'enthousiasme, de fiabilité et d'une mentalité axée sur les résultats dans chaque tâche.",
       "text2": "Je suis désireux d'utiliser mes compétences et ma passion pour la technologie afin d'apporter des contributions significatives, de réaliser les objectifs de l'organisation et de continuer à progresser dans le monde en constante évolution de l'IT."
     },
+    "blogs": {
+      "title": "Blogs",
+      "pwa": "Progressive Web Apps : Gagnez du temps et améliorez l'expérience utilisateur sur tous les appareils",
+      "eea": "Loi européenne sur l'accessibilité (EAA) intégration du frontend - en interne dans l'entreprise"
+    },
     "certificates": {
       "title": "Certificats",
       "hedera-certificate": "Certificat Hedera - Hedera 2023",
@@ -147,6 +152,10 @@
     "roango": {
       "title": "Roango",
       "description": "Une application pour rechercher des talents et des emplois, et compiler des travaux - entreprise"
+    },
+    "tankdaten": {
+      "title": "TankDaten",
+      "description": "Une application pour la gestion de grands chantiers (projets, emplacements, machines, réservoirs, utilisateurs et rapports) avec un accent sur la consommation de carburant et la prévention du vol de carburant - Troido"
     },
     "expertise": {
       "title": "Expertise",

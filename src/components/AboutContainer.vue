@@ -9,6 +9,8 @@ import PersonalQualitiesIcon from '@/assets/icons/PersonalQualitiesIcon.vue'
 import CertificatesIcon from '@/assets/icons/CertificatesIcon.vue'
 import CroatiaIcon from '@/assets/i18n/CroatiaIcon.vue'
 import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
+import OpenLinkIcon from '@/assets/icons/OpenLinkIcon.vue'
+import BlogIcon from '@/assets/icons/BlogIcon.vue'
 </script>
 
 <template>
@@ -148,6 +150,28 @@ import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
 
     <div class="paragraph-wrapper">
       <div class="title-wrapper">
+        <ElIcon :size="28"><BlogIcon color="white" /></ElIcon>
+        <h2 class="color-white">{{ $t('about.blogs.title') }}</h2>
+      </div>
+      <p>
+        <span class="blog-link-container">
+          - {{ $t('about.blogs.pwa') }}
+          <a
+            href="https://www.barrage.net/blog/technology/progressive-web-apps-save-time-and-improve-user-experience"
+            target="_blank"
+            class="blog-link"
+          >
+            <ElIcon :size="20">
+              <OpenLinkIcon />
+            </ElIcon>
+          </a>
+        </span>
+        - {{ $t('about.blogs.eea') }} <br />
+      </p>
+    </div>
+
+    <div class="paragraph-wrapper">
+      <div class="title-wrapper">
         <ElIcon :size="28"><CertificatesIcon color="white" /></ElIcon>
         <h2 class="color-white">{{ $t('about.certificates.title') }}</h2>
       </div>
@@ -206,6 +230,17 @@ import EnglishIcon from '@/assets/i18n/EnglishIcon.vue'
 .title-wrapper {
   display: flex;
   gap: 16px;
+  align-items: center;
+}
+
+.blog-link-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.blog-link {
+  display: flex;
   align-items: center;
 }
 </style>

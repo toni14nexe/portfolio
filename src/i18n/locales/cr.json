@@ -30,7 +30,7 @@
     "languages": {
       "title": "Jezici",
       "croatian": "Hrvatski - Materinji jezik, najviša razina govora, slušanja i pisanja",
-      "english": "Engleski - A2-A1 razina govora, slušanja i pisanja"
+      "english": "Engleski - B2-B1 razina govora, slušanja i pisanja"
     },
     "early_years": {
       "title": "Mladost",
@@ -94,6 +94,11 @@
       "text1": "Izuzetno sam ambiciozna i posvećena osoba koja napreduje kroz izazove i stalno traži prilike za osobni rast. Ponosim se sposobnošću da ispunjavam rokove, učim nove jezike i frameworkove i pomičem granice onoga što mogu postići. Bilo kao dio tima ili samostalno, donosim entuzijazam, pouzdanost i ozbiljan pristup svakom zadatku.",
       "text2": "Spreman sam iskoristiti svoje vještine i strast prema tehnologiji kako bih dao značajan doprinos, ostvario ciljeve organizacije i nastavio napredovati u IT svijetu."
     },
+    "blogs": {
+      "title": "Blogovi",
+      "pwa": "Progresivne web aplikacije: uštedite vrijeme i poboljšajte korisničko iskustvo na svim uređajima",
+      "eea": "Europski zakon o pristupačnosti (EAA) frontend integracija - interno u tvrtki"
+    },
     "certificates": {
       "title": "Certifikati",
       "hedera-certificate": "Hedera certifikat - Hedera 2023",
@@ -147,6 +152,10 @@
     "roango": {
       "title": "Roango",
       "description": "Aplikacija za traženje talenata i poslova, te ugovaranje poslova - Barrage"
+    },
+    "tankdaten": {
+      "title": "TankDaten",
+      "description": "Aplikacija za vođenje velikih gradilišta (projekata, lokacija, mašina, tankova, korisnika i reportova) sa fokusom na potrošnju goriva, odnosno izbjegavanje krađe istog - Troido"
     },
     "expertise": {
       "title": "Expertise",

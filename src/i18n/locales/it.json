@@ -30,7 +30,7 @@
     "languages": {
       "title": "Lingue",
       "croatian": "Croato - Lingua madre, il massimo livello di parlato, ascolto e scrittura",
-      "english": "Inglese - Livello A2-A1 di parlato, ascolto e scrittura"
+      "english": "Inglese - Livello B2-B1 di parlato, ascolto e scrittura"
     },
     "early_years": {
       "title": "Prime anni",
@@ -94,6 +94,11 @@
       "text1": "Sono una persona estremamente ambiziosa e dedicata che ama affrontare sfide e cerca costantemente opportunità per migliorare. Sono orgoglioso della mia capacità di rispettare le scadenze, imparare nuovi linguaggi e framework, e superare i limiti di ciò che posso realizzare. Che sia in team o autonomamente, mostro entusiasmo, affidabilità e un atteggiamento orientato ai risultati in ogni compito.",
       "text2": "Sono desideroso di utilizzare le mie competenze e la mia passione per la tecnologia per apportare contributi significativi, realizzare gli obiettivi dell'organizzazione e continuare a crescere nel mondo in continua evoluzione dell'IT."
     },
+    "blogs": {
+      "title": "Blog",
+      "pwa": "Progressive Web Apps: Risparmia tempo e migliora l'esperienza utente su tutti i dispositivi",
+      "eea": "Legge europea sull'accessibilità (EAA) integrazione frontend - internamente nell'azienda"
+    },
     "certificates": {
       "title": "Certificati",
       "hedera-certificate": "Certificato Hedera - Hedera 2023",
@@ -147,6 +152,10 @@
     "roango": {
       "title": "Roango",
       "description": "Un'applicazione per cercare talenti e lavori, e compilare lavori - azienda"
+    },
+    "tankdaten": {
+      "title": "TankDaten",
+      "description": "Un'applicazione per la gestione di grandi cantieri (progetti, località, macchinari, serbatoi, utenti e report) con un focus sul consumo di carburante e sulla prevenzione del furto di carburante - Troido"
     },
     "expertise": {
       "title": "Expertise",
