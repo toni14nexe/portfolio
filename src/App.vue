@@ -114,7 +114,7 @@ function changeLanguage(languageOption) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ElIcon :size="36"><LinkedInIcon color="#ebebeba3" /></ElIcon>
+              <ElIcon :size="36"><LinkedInIcon color="#d6d6d6" /></ElIcon>
             </a>
           </ElTooltip>
           <ElTooltip :content="$t('header.GitHub')">
@@ -124,7 +124,7 @@ function changeLanguage(languageOption) {
               rel="noopener noreferrer"
               class="ml-8"
             >
-              <ElIcon :size="36"><GitHubIcon color="#ebebeba3" /></ElIcon>
+              <ElIcon :size="36"><GitHubIcon color="#d6d6d6" /></ElIcon>
             </a>
           </ElTooltip>
           <ElTooltip :content="$t('header.Facebook')">
@@ -134,7 +134,7 @@ function changeLanguage(languageOption) {
               rel="noopener noreferrer"
               class="ml-8"
             >
-              <ElIcon :size="36"><FacebookIcon color="#ebebeba3" /></ElIcon>
+              <ElIcon :size="36"><FacebookIcon color="#d6d6d6" /></ElIcon>
             </a>
           </ElTooltip>
           <ElTooltip content="toni14nexe@gmail.com">
@@ -144,7 +144,7 @@ function changeLanguage(languageOption) {
               rel="noopener noreferrer"
               class="ml-8"
             >
-              <ElIcon :size="36"><EmailIcon color="#ebebeba3" /></ElIcon>
+              <ElIcon :size="36"><EmailIcon color="#d6d6d6" /></ElIcon>
             </a>
           </ElTooltip>
         </nav>
