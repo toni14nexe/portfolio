@@ -244,3 +244,19 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
     </ElCol>
   </ElRow>
 </template>
+
+<style>
+.el-icon {
+  color: white;
+}
+@media (min-width: 1199px) {
+  .el-icon {
+    color: var(--vt-c-text-light-2);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .el-icon {
+    color: white;
+  }
+}
+</style>
