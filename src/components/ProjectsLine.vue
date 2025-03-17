@@ -105,7 +105,7 @@ import OpenLinkIcon from '@/assets/icons/OpenLinkIcon.vue'
     {{ $t('projects.expertise.description') }}
   </LineItem>
 
-  <LineItem href="https://agro-application.netlify.app">
+  <LineItem href="https://agro-app.com/">
     <template #icon>
       <ElIcon :size="28">
         <AgroAppIcon />
