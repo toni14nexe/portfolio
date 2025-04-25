@@ -25,7 +25,7 @@
     "name": "Ime",
     "place_of_birth": "Mjesto rođenja",
     "residence": "Prebivalište",
-    "current_position": "Trenutna pozicija: Frontend Developer u Barrage d.o.o.",
+    "current_position": "Trenutna pozicija: Software inženjer u Minus5 d.o.o.",
     "professional_developer_since_2021": "Profesionalni developer od 2021. godine",
     "languages": {
       "title": "Jezici",
@@ -66,8 +66,9 @@
           "title": "Travelspot",
           "text": "Jedinstveni brend unutar Barrage portfelja koji prikazuje inovativna i skalabilna web rješenja za poslovna putovanja."
         },
-        "text3": "Osim svojih osnovnih odgovornosti, stalno sam tražio prilike za unapređenje svojih vještina, istraživanje novih tehnologija i doprinosu projektima unutar tvrtke i osobnim projektima.",
-        "text4": {
+        "text3": "Trenutno u Minus5 radim na aplikaciji vodeće Hrvatske kladionice SuperSport.",
+        "text4": "Osim svojih osnovnih odgovornosti, stalno sam tražio prilike za unapređenje svojih vještina, istraživanje novih tehnologija i doprinosu projektima unutar tvrtke i osobnim projektima.",
+        "text5": {
           "first_part": "Ostale projekte možete pogledati",
           "url_part": "ovdje."
         }
@@ -137,6 +138,10 @@
     }
   },
   "projects": {
+    "supersport": {
+      "title": "SuperSport",
+      "description": "Aplikacija za sportsko klađenje i igre na sreću, s fokusom na vrhunsko korisničko iskustvo i performanse – Minus5"
+    },
     "onehub": {
       "title": "T-com OneHub",
       "description": "Aplikacija vodećeg hrvatskog telekomunikacijskog operatora u suradnji s Deutsche Telekomom, koja ujedinjuje 11 različitih usluga za poslovne korisnike u jednu - Barrage, još uvijek u razvoju"

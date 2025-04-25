@@ -64,10 +64,10 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
     <ElCol :xs="24" :sm="12" :md="12" :lg="24" :xl="12">
       <LineItem>
         <template #icon>
-          <ElIcon :size="28"> <GitIcon /></ElIcon>
+          <ElIcon :size="28"> <ReactIcon /></ElIcon>
         </template>
-        <template #heading>Git</template>
-        {{ `${$t('skills.since')} 2020` }}
+        <template #heading>React</template>
+        {{ `${$t('skills.since')} 2024` }}
       </LineItem>
     </ElCol>
 
@@ -88,6 +88,16 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
         </template>
         <template #heading>Nuxt</template>
         {{ `${$t('skills.since')} 2021` }}
+      </LineItem>
+    </ElCol>
+
+    <ElCol :xs="24" :sm="12" :md="12" :lg="24" :xl="12">
+      <LineItem>
+        <template #icon>
+          <ElIcon :size="28"> <GitIcon /></ElIcon>
+        </template>
+        <template #heading>Git</template>
+        {{ `${$t('skills.since')} 2020` }}
       </LineItem>
     </ElCol>
 
@@ -130,16 +140,6 @@ import NestIcon from '@/assets/icons/NestIcon.vue'
         </template>
         <template #heading>{{ $t('skills.hedera_certificate') }}</template>
         2023
-      </LineItem>
-    </ElCol>
-
-    <ElCol :xs="24" :sm="12" :md="12" :lg="24" :xl="12">
-      <LineItem>
-        <template #icon>
-          <ElIcon :size="28"> <ReactIcon /></ElIcon>
-        </template>
-        <template #heading>React</template>
-        {{ `1 ${$t('skills.year_of_experiance')}` }}
       </LineItem>
     </ElCol>
 

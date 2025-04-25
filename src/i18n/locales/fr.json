@@ -25,7 +25,7 @@
     "name": "Nom",
     "place_of_birth": "Lieu de naissance",
     "residence": "Résidence",
-    "current_position": "Posição Atual: Desenvolvedor Frontend na Barrage d.o.o.",
+    "current_position": "Poste actuel : Ingénieur logiciel chez Minus5 d.o.o.",
     "professional_developer_since_2021": "Développeur professionnel depuis 2021",
     "languages": {
       "title": "Langues",
@@ -66,8 +66,9 @@
           "title": "Travelspot",
           "text": "Une marque unique dans le portfolio de Barrage, présentant des solutions web innovantes et évolutives pour les voyages d'affaires."
         },
-        "text3": "Au-delà de mes responsabilités principales, j'ai constamment cherché des opportunités pour améliorer mes compétences, explorer de nouvelles technologies et contribuer à des projets tant personnels qu'en entreprise.",
-        "text4": {
+        "text3": "Actuellement chez Minus5, je travaille sur l'application du principal opérateur de paris en Croatie, SuperSport.",
+        "text4": "Au-delà de mes responsabilités principales, j'ai constamment cherché des opportunités pour améliorer mes compétences, explorer de nouvelles technologies et contribuer à des projets tant personnels qu'en entreprise.",
+        "text5": {
           "first_part": "Vous pouvez consulter mes autres projets",
           "url_part": "ici."
         }
@@ -137,6 +138,10 @@
     }
   },
   "projects": {
+    "supersport": {
+      "title": "SuperSport",
+      "description": "Application de paris sportifs et de jeux de hasard, axée sur une expérience utilisateur et des performances de premier ordre – Minus5"
+    },
     "onehub": {
       "title": "T-com OneHub",
       "description": "Application du principal opérateur télécom croate en coopération avec Deutsche Telekom, qui regroupe 11 services différents pour les utilisateurs professionnels en un seul - entreprise, encore en développement"

@@ -25,7 +25,7 @@
     "name": "名前",
     "place_of_birth": "出生地",
     "residence": "居住地",
-    "current_position": "現在の職位: Barrage d.o.o.でのフロントエンド開発者",
+    "current_position": "現在のポジション：Minus5 d.o.o. のソフトウェアエンジニア",
     "professional_developer_since_2021": "2021年からプロフェッショナルな開発者",
     "languages": {
       "title": "言語",
@@ -66,8 +66,9 @@
           "title": "Travelspot",
           "text": "Barrageのポートフォリオ内で、ビジネス旅行向けの革新的でスケーラブルなWebソリューションを提供するブランドです。"
         },
-        "text3": "主要な責任に加えて、私は常にスキルを向上させる機会を探し、新しい技術を探求し、個人および企業のプロジェクトに貢献しています。",
-        "text4": {
+        "text3": "現在Minus5では、クロアチアの大手ブックメーカーSuperSportのアプリケーションに取り組んでいます。",
+        "text4": "主要な責任に加えて、私は常にスキルを向上させる機会を探し、新しい技術を探求し、個人および企業のプロジェクトに貢献しています。",
+        "text5": {
           "first_part": "他のプロジェクトもこちらで確認できます",
           "url_part": "こちら。"
         }
@@ -137,6 +138,10 @@
     }
   },
   "projects": {
+    "supersport": {
+      "title": "SuperSport",
+      "description": "スポーツベッティングとギャンブルのアプリで、優れたユーザー体験とパフォーマンスに重点を置いています – Minus5"
+    },
     "onehub": {
       "title": "T-com OneHub",
       "description": "Deutsche Telekomと協力したクロアチアの主要な通信事業者のアプリケーションで、11の異なるビジネスユーザーサービスを1つに統合しています。企業、現在開発中"

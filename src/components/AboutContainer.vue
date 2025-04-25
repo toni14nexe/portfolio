@@ -110,9 +110,11 @@ import BlogIcon from '@/assets/icons/BlogIcon.vue'
         <br />
         {{ $t('about.professional_experience.barrage.text3') }}
         <br />
-        {{ $t('about.professional_experience.barrage.text4.first_part') }}
+        {{ $t('about.professional_experience.barrage.text4') }}
+        <br />
+        {{ $t('about.professional_experience.barrage.text5.first_part') }}
         <RouterLink to="/projects">
-          {{ $t('about.professional_experience.barrage.text4.url_part') }}
+          {{ $t('about.professional_experience.barrage.text5.url_part') }}
         </RouterLink>
       </p>
     </div>

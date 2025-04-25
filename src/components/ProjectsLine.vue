@@ -16,9 +16,25 @@ import PurpleHatIcon from '@/assets/icons/PurpleHatIcon.vue'
 import ChineseFoodIcon from '@/assets/icons/ChineseFoodIcon.vue'
 import GitHubIcon from '@/assets/icons/GitHubIcon.vue'
 import OpenLinkIcon from '@/assets/icons/OpenLinkIcon.vue'
+import SuperSportIcon from '@/assets/icons/SuperSportIcon.vue'
 </script>
 
 <template>
+<LineItem href="https://www.supersport.hr">
+    <template #icon>
+      <ElIcon :size="28">
+        <SuperSportIcon />
+      </ElIcon>
+    </template>
+    <template #heading>
+      <div class="heading-container">
+        {{ $t('projects.supersport.title') }}
+        <ElIcon :size="20"><OpenLinkIcon /></ElIcon>
+      </div>
+    </template>
+    {{ $t('projects.supersport.description') }}
+  </LineItem>
+
   <LineItem href="https://www.hrvatskitelekom.hr">
     <template #icon>
       <ElIcon :size="28">
@@ -105,7 +121,7 @@ import OpenLinkIcon from '@/assets/icons/OpenLinkIcon.vue'
     {{ $t('projects.expertise.description') }}
   </LineItem>
 
-  <LineItem href="https://agro-application.netlify.app">
+  <LineItem href="https://agro-app.com">
     <template #icon>
       <ElIcon :size="28">
         <AgroAppIcon />
